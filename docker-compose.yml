@@ -1,0 +1,51 @@
+version: '3.9'
+
+services:
+  backend:
+    build: ./backend
+    container_name: elpazar_backend
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=development
+      - PORT=5000
+      - POSTGRES_URL=postgres://postgres:password@postgres:5432/elpazar
+      - MONGO_URL=mongodb://mongo:27017/elpazar
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - postgres
+      - mongo
+      - redis
+
+  postgres:
+    image: postgres:15
+    container_name: elpazar_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: elpazar
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  mongo:
+    image: mongo:7
+    container_name: elpazar_mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodata:/data/db
+
+  redis:
+    image: redis:8
+    container_name: elpazar_redis
+    restart: always
+    ports:
+      - "6379:6379"
+
+volumes:
+  pgdata:
+  mongodata:

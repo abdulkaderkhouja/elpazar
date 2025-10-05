@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    /*
+    Output module system for compiled JS.
+    ESNext means ES Modules (import/export), which works with "type": "module" in package.json.
+    */
+    "module": "ESNext",
+    /* Tells TypeScript how to resolve imports. "node" mimics Node.js behavior (checks node_modules, .js, .ts files, etc.)*/
+    "moduleResolution": "node",
+    // The version of JavaScript to generate. es2020 supports modern JS features like BigInt, Optional Chaining, nullish coalescing.
+    "target": "es2020",
+    // Declares which JS built-in APIs are available. Includes Promise, Map, Set, BigInt, etc.
+    "lib": ["ES2020"],
+    // Includes Node.js type definitions (process, Buffer, fs, etc.) so TS knows about Node globals.
+    "types": ["node"],
+    // Generates .map files for debugging. You can debug TS code in Node or browser as if it were TypeScript, not JS.
+    "sourceMap": true,
+    // Generates .d.ts files for TypeScript type declarations. Useful if your project is a library.
+    "declaration": true,
+    // Generates maps for declaration files to help editors link back to the original .ts file
+    "declarationMap": true,
+    // Enables all strict TypeScript checks (null checks, type inference, etc.). Helps catch bugs early.
+    "strict": true,
+    // Forces TypeScript to check array and object indexing. Example: arr[0] could be undefined.
+    "noUncheckedIndexedAccess": true,
+    // Makes optional properties (?) be treated exactly as optional. Helps prevent mistakes with undefined vs missing keys.
+    "exactOptionalPropertyTypes": true,
+    // Allows decorators in TS. Decorators (used with class-validator / class-transformer)
+    "experimentalDecorators": true,
+    // Emits metadata required by some libraries (like class-transformer) for runtime reflection. Necessary if you want to transform plain objects into class instances or validate them.
+    "emitDecoratorMetadata": true,
+    // Ensures each file can be compiled independently. Useful when using ts-node or Babel for ES Modules.
+    "isolatedModules": true,
+    // Skips type checking of .d.ts files from node_modules. Speeds up compilation and avoids unnecessary errors from third-party libraries.
+    "skipLibCheck": true,
+    // Allows you to write import express from "express" even if the module doesn’t have a default export.
+    "allowSyntheticDefaultImports": true,
+    // Makes CommonJS modules compatible with ES Modules. Works with require modules like express when using import.
+    "esModuleInterop": true
+  },
+  // Only compile .ts files in src.
+  "include": ["src"],
+  // Excludes compiled output and dependencies from compilation.
+  "exclude": ["node_modules", "dist"]
+}

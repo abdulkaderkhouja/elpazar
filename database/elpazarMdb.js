@@ -1,0 +1,1 @@
+// Mongo shell scripts (JavaScript) for creating DBs, collections, and applying schema validation.

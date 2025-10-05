@@ -1,0 +1,51 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.9.0",
+    "@tanstack/react-query": "^5.90.2",
+    "i18next": "^25.5.3",
+    "next": "^15.5.4",
+    "next-i18next": "^15.4.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-flagkit": "^2.0.4",
+    "react-i18next": "^16.0.0",
+    "sass": "^1.93.2",
+    "schema-dts": "^1.1.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/estree": "^1.0.8",
+    "@types/json-schema": "^7.0.15",
+    "@types/node": "^24.6.1",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/react-redux": "^7.1.34",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "lucide-react": "^0.544.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "react-redux": "^9.2.0",
+    "tailwindcss": "^3.4.18",
+    "typescript": "~5.8.3"
+  },
+  "resolutions": {
+    "react-helmet-async/react": "^19.1.1"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "next-i18next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

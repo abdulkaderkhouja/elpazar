@@ -1,0 +1,63 @@
+{
+  "_comment" : "The name of the project as it is the backend folder meaning the backend project",
+  "name": "backend",
+
+  "_comment" : "This the current version of the project in standard semantic versioning format (major.minor.patch)",
+  "version": "1.0.0",
+
+  "_comment" : "The entry point of the project if someone imports it as a package, here it points to dist/server.ts which is the compiled JS output after Typescript transpiles the code",
+  "main": "dist/server.js",
+  
+  "_comment" : "scripts defines the commands that can be run using npm run <script>",
+  "scripts": {
+    "_comment" : "Runs Typescript compiler (tsc) to convert ts files in src to js files in dist so src/*.ts to dist/*.js",
+    "build": "tsc",
+    "_comment" : "Runs the server directly using ts-node, which executes Typescript without compiling it first. This is mainly for running in development or small projects",
+    "start": "ts-node src/server.ts",
+    "_comment" : "Runs nodemon in development mode: <see the following three comments to learn more>",
+    "_comment" : "--watch src: Whatches the src folder for changes",
+    "_comment" : "--ext ts: Watches .ts files only",
+    "_comment" : "--exec ts-node src/server.ts: When changes are detected execute src/server.ts with ts-node",
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/server.ts. This makes the server restart automatically whenever you change your code."
+  },
+
+  "_comment" : "These are runtime dependencies, i.e. packages the app needs to run",
+  "dependencies": {
+    "_comment" : "Prisma client for database queries",
+    "@prisma/client": "^6.16.2",
+    "_comment" : "Middleware to handle Cross-Origin Resource Sharing (enables frontend to access backend).",
+    "cors": "^2.8.5",
+    "_comment" : "Loads .env file variables into process.env.",
+    "dotenv": "^17.2.2",
+    "_comment" : "The Node.js web framework for building APIs.",
+    "express": "^5.1.0",
+    "_comment" : "MongoDB ODM (Object Data Modeling) library.",
+    "mongoose": "^8.18.3",
+    "_comment" : "HTTP request logger middleware for Express.",
+    "morgan": "^1.10.1",
+    "_comment" : "PostgreSQL client for Node.js.",
+    "pg": "^8.16.3",
+    "_comment" : "CLI and tools for Prisma ORM.",
+    "prisma": "^6.16.2",
+    "_comment" : "Node.js client for Redis caching.",
+    "redis": "^5.8.2",
+    "_comment" : "Helps transform plain objects into class instances.",
+    "class-transformer": "^0.5.1",
+    "_comment" : "Helps validate data objects according to decorators in classes.",
+    "class-validator": "^0.14.2"
+  },
+
+  "_comment" : "These are development only packages, not needed for production",
+  "devDependencies": {
+    "_comment" : "TypeScript type definitions for Express.",
+    "@types/express": "^5.0.3",
+    "_comment" : "TypeScript type definitions for Node.js built-in modules.",
+    "@types/node": "^24.6.0",
+    "_comment" : "Automatically restarts the server on code changes.",
+    "nodemon": "^3.1.10",
+    "_comment" : "Runs TypeScript directly without compiling it to JS.",
+    "ts-node": "^10.9.2",
+    "_comment" : "TypeScript compiler itself.",
+    "typescript": "^5.9.2"
+  }
+}

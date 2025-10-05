@@ -1,0 +1,810 @@
+    Goal (one line)
+        Build an event-driven ISR-like system that serves pre-rendered HTML from the edge (CDN) for SEO and scale, and automatically refreshes only the pages that change (product updates, pricing changes, stock, translations), while handling personalization and dynamic pricing via client-side / edge calls.
+    High-level architecture (summary)
+        Pre-render product & marketing pages as static HTML (SSG or ISR) and deploy them to origin.
+        Edge CDN (Cloudflare / Fastly / CloudFront / Vercel Edge) caches that HTML globally.
+        Event bus (Kafka / AWS SNS+SQS / RabbitMQ) receives changes (product update, price change, translation update).
+        Invalidation & Regeneration workers listen to events and either:
+        Purge CDN cache for affected pages (fast), or
+        Call an on-demand revalidation endpoint (Next.js res.revalidate() style) to rebuild specific pages at origin and repopulate CDN.
+        Dynamic pieces (price by variation, availability, personalized offers) are loaded by the browser/edge after page load via lightweight APIs or edge functions (React Query / edge fetch).
+        Use surrogate keys / tag-based cache invalidation and stale-while-revalidate to make updates efficient.
+        Observability + throttling + batching of invalidations for efficiency.
+    Recommended stack (realistic, battle-tested)
+        Frontend: Next.js os self-hosted and Next.js gives ISR, SSG, SSR all in one. / You can use on-demand revalidation via webhook events. Avoid vendor lock-in.
+        CDN / Edge: Cloudflare is the best. Cloudflare CDN + Workers (free tier generous). Cloudflare has a large global edge network, supports cache control headers, and has free Workers (100k requests/day free). If traffic grows, you can self-host Nginx as fallback for edge caching.
+        Event bus: Kafka (self-hosted or Redpanda). Kafka (or Redpanda, a drop-in faster replacement) gives event-driven updates for ISR rebuild triggers, pricing updates, etc. For simpler setups, use Redis Streams instead of Kafka.
+        Cache + queues: Redis (self-hosted). Redis can handle caching, queues, pub/sub, and surrogate keys for revalidation. Use Redis Pub/Sub to notify Next.js or your backend when products update. and SQS for async tasks.
+        Microservices: ✅ Node.js. Easy to integrate with Next.js, share types (TypeScript), and handle JSON APIs. For extreme scale, Go can outperform Node, but Node’s ecosystem is unbeatable for speed of development.
+        DBs: Postgres + Redis. Postgres = relational consistency (products, orders). Redis = high-speed caching. Use Redis for product reads and Postgres for updates.
+        Search/Recommendation: OpenSearch. Free and self-hostable, great for catalog search and recommendations. Can integrate with Kafka to reindex on product changes.
+        Monitoring: Prometheus + Grafana (self-hosted). Fully open-source and production-grade monitoring/alerting stack. Add Sentry (free tier) for error tracking and performance tracing.
+
+/marketplace-project/
+│
+├── frontend/       → Next.js (ISR, SSG, CSR)
+├── backend/        → Node.js / Express / NestJS APIs + microservices
+├── cache/          → Redis setup (events, caching)
+├── search/         → OpenSearch / Elasticsearch
+├── database/       → PostgreSQL schema and migrations
+├── event-bus/      → Kafka / Redis Streams setup
+├── infra/          → Docker Compose, Cloudflare config, monitoring, etc.
+└── monitoring/     → Prometheus + Grafana + Sentry setup
+
+frontend/
+├── next.config.js
+├── package.json
+├── src/
+│   ├── pages/
+│   │   ├── index.tsx               → Home (ISR)
+│   │   ├── products/[slug].tsx     → ISR with on-demand revalidation
+│   │   ├── dashboard/              → CSR with React Query
+│   │   ├── api/revalidate.ts       → On-demand ISR API route
+│   │   └── _app.tsx
+│   ├── components/                 → Shared UI components
+│   ├── hooks/                      → React Query, WebSocket hooks
+│   ├── utils/                      → Formatters, helpers
+│   ├── lib/
+│   │   ├── apiClient.ts            → Axios instance for backend API
+│   │   ├── redisClient.ts          → Optional for ISR invalidation
+│   │   └── websocketClient.ts
+│   ├── styles/
+│   └── public/
+
+✅ Frontend key principle:
+    Use ISR for product, category, blog pages.
+    Use CSR (React Query) for dashboards, dynamic user areas.
+    Use on-demand revalidation (via API route) triggered by backend events.
+
+backend/
+├── package.json
+├── src/
+│   ├── main.ts                    → App entry point
+│   ├── app.module.ts              → (if using NestJS)
+│   ├── config/                    → DB, Redis, Kafka configs
+│   ├── modules/
+│   │   ├── products/
+│   │   │   ├── product.controller.ts
+│   │   │   ├── product.service.ts
+│   │   │   ├── product.model.ts
+│   │   │   ├── product.events.ts  → Publishes "product:update"
+│   │   ├── orders/
+│   │   ├── users/
+│   │   └── auth/
+│   ├── listeners/
+│   │   └── product-update.listener.ts → Calls frontend ISR API route
+│   ├── utils/
+│   └── index.ts
+
+✅ Backend key principle:
+    Publish events to Kafka or Redis whenever a product, category, or blog changes.
+    A listener service calls the Next.js ISR revalidation API for affected pages.
+
+cache/
+├── docker-compose.yml
+├── redis.conf
+├── scripts/
+│   ├── publishEvent.js
+│   └── subscribeEvent.js
+
+Handles:
+    Product caches.
+    Pub/Sub or Streams for invalidation events.
+    Queue management for revalidation triggers.
+
+event-bus/
+├── docker-compose.yml
+├── kafka/
+│   ├── broker/
+│   ├── zookeeper/
+│   └── producer-consumer-scripts/
+
+database/
+├── docker-compose.yml
+├── migrations/
+│   ├── 001_init.sql
+│   ├── 002_add_products.sql
+│   └── 003_add_orders.sql
+└── seeds/
+
+search/
+├── docker-compose.yml
+├── config/
+│   ├── index_mappings.json
+│   └── analyzers.json
+└── sync/
+    └── kafka_to_opensearch.js     → listens to Kafka & updates search index
+
+infra/
+├── docker-compose.yml             → orchestrates all services
+├── nginx.conf                     → load balancing
+├── cloudflare/
+│   ├── worker.js                  → edge cache + ISR revalidation triggers
+│   └── config.json
+├── aws/
+│   ├── cloudfront.json
+│   ├── lambda@edge/
+│   └── deploy.sh
+
+
+monitoring/
+├── docker-compose.yml
+├── prometheus.yml
+├── grafana/
+│   ├── dashboards/
+│   └── datasources/
+└── sentry/
+
+
+
+
+
+
+
+
+Styling Plan:
+    - Use for Market:
+        ShadCN/UI + Tailwind if you want a modern marketplace with strong branding and flexibility.
+    - Use for dashboards:
+        Ant Design if you want ready enterprise-grade dashboards and tables quickly.
+
+
+
+The plan for _app.tsx, index.tsx, Layout.tsx, Header.tsx, Navbar.tsx, components.tsx:
+    1. Entry point → _app.tsx
+        Next.js starts every page from _app.tsx.
+        _app.tsx does two key things:
+            Wraps all pages with global providers (Redux, styles, <Head> for meta, etc.).
+            Checks if the page defines a getLayout function.
+                If yes → wraps the page in that layout.
+                If no → just renders the page normally.
+    2. Page definition → index.tsx
+        Inside /pages/index.tsx, you define the Home page for /.
+        The page:
+        const Home: NextPageWithLayout = () => <h1>Welcome to El Pazar</h1>;
+        Then it attaches:
+        Home.getLayout = (page) => <MarketLayout>{page}</MarketLayout>;
+        Meaning: "Whenever this page renders, put me inside MarketLayout."
+    3. Layout definition → MarketLayout.tsx
+        MarketLayout is a wrapper component that defines the common structure of marketplace pages.
+        It always renders:
+        MarketHeader (which includes your logo + navbar).
+        The children (the actual page content, like Home, Products, Categories, etc.).
+        MarketFooter (global footer).
+        So if the page is /, the output looks like:
+        <header>...MarketHeader...</header>
+        <main>Welcome to El Pazar</main>
+        <footer>...MarketFooter...</footer>
+    4. Header definition → MarketHeader.tsx
+        MarketHeader is the top section of every page.
+        It includes:
+        Your logo (from /public/assets/images/logo.png).
+        Quick links (Login / Signup).
+        The MarketNavbar (global navigation menu).
+    5. Navigation bar → MarketNavbar.tsx
+        MarketNavbar contains the main menu system.
+        Links → /, /products, /categories, /about, /contact.
+        Has two modes:
+        Desktop nav: horizontal menu.
+        Mobile nav: collapsible menu with toggle button.
+        This ensures responsive navigation across devices.
+    🔄 Flow Overview (Textual)
+        User visits /.
+        Next.js sees pages/index.tsx → renders Home.
+        _app.tsx checks → Home.getLayout exists.
+        _app.tsx calls Home.getLayout(<Home />).
+        getLayout wraps <Home /> inside <MarketLayout>.
+        MarketLayout renders:
+        <MarketHeader /> → includes <MarketNavbar />.
+        <main>{Home}</main> → shows page content.
+        <MarketFooter />.
+        Final result is a fully structured page with header, nav, content, footer.
+        📊 Flow Chart
+        High-Level Flow
+        User Request (/)
+                │
+                ▼
+        Next.js Router
+                │
+                ▼
+        index.tsx (Home Page)
+                │
+                ▼
+        Home.getLayout(page)
+                │
+                ▼
+        MarketLayout
+        ┌───────────────────────────┐
+        │  MarketHeader             │
+        │   └── MarketNavbar        │
+        │  ───────────────────────  │
+        │  <main> Home Content </main>  
+        │  ───────────────────────  │
+        │  MarketFooter             │
+        └───────────────────────────┘
+
+        Component Dependency Tree
+        _app.tsx
+        └── index.tsx (Home)
+            └── MarketLayout
+                ├── MarketHeader
+                │    └── MarketNavbar
+                ├── <main> Page Content </main>
+                └── MarketFooter
+
+
+    ✅ This way:
+        _app.tsx controls global app behavior.
+        index.tsx defines the page itself.
+        MarketLayout.tsx gives it a reusable structure.
+        MarketHeader.tsx provides the top bar.
+        MarketNavbar.tsx provides navigation.
+        MarketFooter.tsx closes the page.
+
+
+
+
+
+
+
+Website content plan:
+    3. Recommended Hybrid Approach (what most big marketplaces do)
+    Use locales/* JSON for:
+    UI elements: buttons, menu items, validation messages.
+    Rarely changing default text for static pages.
+    Use database / CMS for:
+    Marketing content: hero sections, banners, announcements.
+    SEO titles, descriptions, JSON-LD metadata.
+    Product/category descriptions.
+    Multi-language marketing copy.
+    This way, developers maintain only truly static UI strings, and content managers can update all visible content via admin interface.
+    Summary Table
+    Content Type	Storage Location	Reason
+    UI labels, buttons, forms	locales/* JSON	Static, rarely changes, easy to translate
+    Marketing content, banners	DB / CMS	Updated frequently, needs admin interface
+    SEO / JSON-LD	DB / CMS	Dynamic per page/product, multilingual
+    Product & category info	DB	Dynamic, multilingual, searchable
+
+    💡 Bottom line:
+    Your locales/* structure is good for UI labels only.
+    For a huge corporate marketplace, the better, more maintainable approach is hybrid: locales for UI, DB/CMS for content and SEO.
+    This ensures scalability, multilingual support, and content team independence.
+
+
+
+
+
+
+SEO Libraries:
+    There isn’t a single library that does “all SEO + digital marketing” in Node.js/Next.js — it’s usually a set of specialized libraries for different purposes. I’ll break it down carefully for you, with the best options currently used in the industry.
+    1. SEO (Search Engine Optimization)
+    For SEO, you mainly care about:
+    Meta tags, titles, descriptions
+    Open Graph / Twitter cards
+    JSON-LD structured data
+    Sitemap generation
+    Robots.txt handling
+    Canonical URLs
+    Libraries & Tools:
+    Purpose	Library / Tool	Notes
+    Meta tags + SEO helpers	next-seo	Popular for Next.js. Allows page-level SEO configuration (title, description, OG, Twitter, JSON-LD, etc.). Works with dynamic routes.
+    Sitemap generation	next-sitemap	Generates XML sitemaps automatically from your Next.js routes. Can include multilingual URLs.
+    Robots.txt	next-sitemap	Can also generate robots.txt easily.
+    Structured data (JSON-LD)	next-seo or react-schemaorg	next-seo handles typical use-cases; react-schemaorg is more flexible if you need full schema.org coverage.
+    Usage tip: With next-seo, you can dynamically generate SEO metadata based on DB content (products, categories) instead of hardcoding them in locales.
+    2. Social Media Sharing / Open Graph / Twitter Cards
+    next-seo (again) handles this.
+    If you need advanced previews for Facebook, LinkedIn, or Pinterest, you usually generate dynamic OG images using libraries like:
+    puppeteer (render server-side HTML to image)
+    @vercel/og (Vercel’s official library for dynamic OG image generation)
+    3. Analytics & Tracking
+    Digital marketing is not just SEO — you also need analytics:
+    Purpose	Library / Tool	Notes
+    Google Analytics	next/script + GA4	Use Next.js Script component to inject GA scripts efficiently.
+    Conversion tracking	react-facebook-pixel, react-google-tag-manager	For Facebook Ads, Google Ads, remarketing.
+    Heatmaps / user behavior	Include tools like Hotjar, Fullstory via their scripts.	
+    4. Email Marketing / Campaign Integration
+    Use SendGrid, Mailchimp, or Postmark Node.js SDKs to send newsletters, transactional emails, or marketing campaigns.
+    Integrate with forms on Next.js pages.
+    5. SEO-friendly URLs & Internationalization
+    Use Next.js i18n routing (you’re already doing this with locales) to create /ar/home, /en/home, etc.
+    Combine with next-sitemap to generate multilingual sitemaps.
+    If you want canonical URLs, next-seo can handle them dynamically per page.
+    6. Performance & Core Web Vitals
+    Fast sites = better SEO. Next.js helps a lot out of the box (SSR, SSG, Image component).
+    Consider:
+    next/image for optimized images
+    next/font for Google Fonts optimization
+    Bundle Analyzer (@next/bundle-analyzer) to optimize JS size
+    ✅ Summary
+    For Next.js + Node.js SEO & digital marketing, I’d use a stack like:
+    next-seo – Meta tags, OG, JSON-LD, titles, Twitter cards
+    next-sitemap – Sitemap & robots.txt generation
+    @vercel/og – Dynamic OG images
+    next/script – Inject Google Analytics, pixels
+    Node SDKs – SendGrid, Mailchimp, etc. for emails
+    Database-driven content – Use your DB for SEO content and product metadata instead of locales
+    This gives you dynamic, scalable SEO and lets you integrate all marketing tools without bloating the site.
+    Let’s design a comprehensive architecture for a full-featured marketplace that integrates SEO, digital marketing, e-commerce, analytics, and automation. I’ll break it down in layers, explain what tools/libraries to use, and how your Next.js + Node.js + DB stack can handle it dynamically. I’ll also include internationalization, dynamic content, and marketing automation.
+
+    1. Architecture Overview
+    Your system can be thought of in these layers:
+    Frontend (Next.js) – public-facing website, SSR/SSG pages, dynamic SEO, i18n.
+    Backend (Node.js/Express or API routes in Next.js) – handles e-commerce logic, product/catalog CRUD, marketing automation endpoints.
+    Database – stores products, categories, SEO data, translations, users, orders.
+    Marketing & SEO Layer – dynamic SEO meta, sitemaps, OG images, analytics, and campaign management.
+    Automation Layer – email, SMS, push notifications, abandoned cart, remarketing.
+    External Integrations – Google Ads, Facebook Pixel, SendGrid/Mailchimp, SMS APIs (Twilio), payment gateways.
+
+    2. Frontend (Next.js)
+    a. Dynamic SEO & Metadata
+    Use next-seo for dynamic SEO per page.
+    Store SEO content in your DB (products, categories) instead of locales for dynamic content.
+    // Example: ProductPage.tsx
+    import { NextSeo } from 'next-seo';
+
+    export default function ProductPage({ product }) {
+    return (
+        <>
+        <NextSeo
+            title={product.seoTitle}
+            description={product.seoDescription}
+            canonical={`https://www.elpazar.com/product/${product.slug}`}
+            openGraph={{
+            url: `https://www.elpazar.com/product/${product.slug}`,
+            title: product.seoTitle,
+            description: product.seoDescription,
+            images: [{ url: product.seoImage }],
+            site_name: 'El Pazar Global Co.',
+            }}
+        />
+        <h1>{product.name}</h1>
+        {/* Product UI */}
+        </>
+    );
+    }
+
+
+    Dynamic Sitemap: use next-sitemap to generate multilingual sitemaps automatically from DB content.
+
+    // next-sitemap.js
+    module.exports = {
+    siteUrl: 'https://www.elpazar.com',
+    generateRobotsTxt: true,
+    changefreq: 'daily',
+    priority: 0.7,
+    alternateRefs: [
+        { href: 'https://www.elpazar.com/en', hreflang: 'en' },
+        { href: 'https://www.elpazar.com/ar', hreflang: 'ar' },
+        { href: 'https://www.elpazar.com/fr', hreflang: 'fr' },
+    ],
+    };
+
+    b. Internationalization (i18n)
+
+    Keep static website content in locales/* (menus, labels, buttons).
+
+    Dynamic product/content info in DB, with a translations table:
+
+    Column	Type	Notes
+    entity_type	string	product/category/page
+    entity_id	int	ID of product/category/page
+    locale	string	en, ar, fr, etc.
+    field	string	title, description, meta_description
+    value	text	translated text
+
+    At runtime, load translations from DB for products and locales for static content.
+
+    c. Analytics & Tracking
+    Use next/script to inject analytics scripts asynchronously.
+    Example: Google Analytics + Facebook Pixel
+    import Script from 'next/script';
+    <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID" />
+    <Script strategy="afterInteractive" id="ga-script">
+    {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    `}
+    </Script>
+    <Script strategy="afterInteractive" id="fb-pixel">
+    {`
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'FACEBOOK_PIXEL_ID');
+        fbq('track', 'PageView');
+    `}
+    </Script>
+
+
+    Add heatmaps like Hotjar for user behavior.
+
+    d. Dynamic Open Graph Images
+    Use @vercel/og to generate dynamic OG images per product/page.
+    This boosts CTR on social media shares.
+    3. Backend / Node.js API
+    Node.js APIs handle:
+    CRUD for products, categories, content.
+    Marketing automation triggers.
+    Dynamic SEO content retrieval.
+    Example endpoint:
+
+    // /api/products/[id].ts
+    export default async function handler(req, res) {
+    const { id } = req.query;
+    const product = await db.getProductById(id);
+    const translations = await db.getTranslations('product', id);
+    res.status(200).json({ product, translations });
+    }
+
+    4. Marketing & Automation Layer
+    a. Email Marketing
+    Use SendGrid or Mailchimp Node SDK.
+    Trigger emails for:
+    Order confirmation
+    Abandoned cart
+    Product recommendations
+    Marketing campaigns
+    b. SMS Marketing
+    Use Twilio or Vonage Node SDK
+    Triggered by:
+    OTP verification
+    Promotions
+    Order updates
+    c. Remarketing / SEM
+    Facebook Pixel + Google Ads remarketing tags in next/script.
+    Dynamic retargeting based on product views.
+    Automated campaign generation from product data.
+    5. E-commerce / Product Management
+    Keep all product data in DB:
+    Names, descriptions, SEO metadata
+    Prices, stock, variants
+    Images
+    Locale files are only for static site labels, e.g., “Add to cart”, “Categories”, “Contact us”.
+    Benefits:
+    Supports huge marketplaces
+    Dynamic SEO per product/category
+    Easy internationalization
+    Marketing campaigns driven by DB content
+    6. Example Flow for a Product Page
+    Next.js SSR/SSG page fetches product + translations from DB.
+    Pass data to next-seo for dynamic metadata.
+    Generate dynamic OG image with @vercel/og.
+    Render page with Redux/Context if needed for cart/state.
+    Track user events via GA/FB Pixel.
+    Trigger marketing workflows (emails, SMS, remarketing) from API events.
+
+    7. Recommended Libraries
+    Layer	Library	Purpose
+    SEO	next-seo	Meta tags, OG, Twitter, JSON-LD
+    Sitemap	next-sitemap	Sitemaps, robots.txt, multilingual
+    OG Images	@vercel/og	Dynamic social preview images
+    Analytics	next/script	GA4, FB Pixel
+    Email	@sendgrid/mail / mailchimp	Email campaigns, transactional emails
+    SMS	twilio	SMS notifications & marketing
+    DB	Prisma / TypeORM	Product & content management
+    Forms & validation	react-hook-form, zod	Marketing forms, lead capture
+    Fonts & images	next/font, next/image	Performance & SEO
+    8. How to Handle Dynamic Content vs Static Content
+    Content	Location	Notes
+    Static UI labels	locales/*	Menus, buttons, site-wide text
+    Frequently changing content	Database	Products, categories, SEO metadata, blog posts
+    SEO metadata	Database	next-seo reads from DB per page
+    Marketing triggers	API events	Emails, SMS, remarketing
+
+    This approach scales to millions of products and multi-language marketplace without bloating locale files.
+
+    ✅ Summary Recommendations
+    Keep your current locales structure for static content only.
+    Move all product and category data + SEO metadata to DB.
+    Use next-seo + next-sitemap + @vercel/og for dynamic SEO.
+    Inject analytics scripts dynamically via next/script.
+    Integrate email/SMS marketing through Node.js SDKs.
+    Design your system so that every event in DB can trigger marketing workflows.
+    Use Redux / Context to handle cart, filters, and dynamic frontend behavior.
+
+
+
+
+
+
+
+
+
+
+
+One structre
+    I’ll outline a production-ready folder structure, API routes, database schema, and usage of locales for your corporate marketplace. This will be fully compatible with Next.js + Node.js + Redux + i18n + SEO + marketing automation.
+
+    1. Project Folder Structure
+    frontend/
+    │
+    ├─ pages/
+    │   ├─ index.tsx               # Homepage
+    │   ├─ _app.tsx                # App entry, Redux + i18n + Layout
+    │   ├─ _document.tsx           # Custom Document for SSR
+    │   ├─ product/
+    │   │   └─ [slug].tsx          # Dynamic product page
+    │   ├─ category/
+    │   │   └─ [slug].tsx          # Dynamic category page
+    │   ├─ api/
+    │   │   ├─ products/
+    │   │   │   └─ [id].ts         # Get/Update product API
+    │   │   ├─ categories/
+    │   │   │   └─ [id].ts         # Get/Update category API
+    │   │   ├─ users/
+    │   │   │   └─ [id].ts         # User management
+    │   │   └─ marketing/
+    │   │       ├─ email.ts        # Trigger email campaigns
+    │   │       ├─ sms.ts          # Trigger SMS campaigns
+    │   │       └─ retarget.ts     # SEM / retargeting endpoints
+    │
+    ├─ components/
+    │   ├─ ui/
+    │   │   ├─ Layouts/
+    │   │   │   ├─ MarketLayout.tsx
+    │   │   │   └─ AdminLayout.tsx
+    │   │   ├─ buttons/
+    │   │   ├─ cards/
+    │   │   ├─ hero/
+    │   │   └─ modals/
+    │   └─ forms/
+    │       ├─ ProductForm.tsx
+    │       ├─ CategoryForm.tsx
+    │       └─ NewsletterForm.tsx
+    │
+    ├─ store/
+    │   ├─ index.ts               # Redux store setup
+    │   ├─ slices/
+    │   │   ├─ cartSlice.ts
+    │   │   ├─ userSlice.ts
+    │   │   └─ uiSlice.ts
+    │
+    ├─ locales/
+    │   ├─ en/
+    │   │   └─ common.json
+    │   ├─ ar/
+    │   │   └─ common.json
+    │   ├─ fr/
+    │   │   └─ common.json
+    │   └─ tr/
+    │       └─ common.json
+    │
+    ├─ styles/
+    │   └─ globals.css
+    │
+    ├─ utils/
+    │   ├─ seo.ts                 # Helper for dynamic SEO
+    │   ├─ analytics.ts           # GA / FB Pixel helpers
+    │   └─ marketing.ts           # Email/SMS triggers
+    │
+    └─ next.config.js
+
+    2. Database Schema (example using PostgreSQL / Prisma)
+
+    Tables for Products & Translations
+
+    -- products table
+    CREATE TABLE products (
+    id SERIAL PRIMARY KEY,
+    sku VARCHAR(50) UNIQUE NOT NULL,
+    price DECIMAL NOT NULL,
+    stock INT NOT NULL,
+    slug VARCHAR(255) UNIQUE NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW(),
+    updated_at TIMESTAMP DEFAULT NOW()
+    );
+
+    -- product_translations table
+    CREATE TABLE product_translations (
+    id SERIAL PRIMARY KEY,
+    product_id INT REFERENCES products(id),
+    locale VARCHAR(5) NOT NULL,       -- en, ar, fr, tr
+    name TEXT NOT NULL,
+    description TEXT,
+    seo_title TEXT,
+    seo_description TEXT,
+    seo_image TEXT,
+    UNIQUE(product_id, locale)
+    );
+
+
+    Tables for Categories, Users, and Marketing Triggers
+
+    -- categories table
+    CREATE TABLE categories (
+    id SERIAL PRIMARY KEY,
+    slug VARCHAR(255) UNIQUE NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW(),
+    updated_at TIMESTAMP DEFAULT NOW()
+    );
+
+    -- category_translations table
+    CREATE TABLE category_translations (
+    id SERIAL PRIMARY KEY,
+    category_id INT REFERENCES categories(id),
+    locale VARCHAR(5) NOT NULL,
+    name TEXT NOT NULL,
+    description TEXT,
+    seo_title TEXT,
+    seo_description TEXT,
+    seo_image TEXT,
+    UNIQUE(category_id, locale)
+    );
+
+    -- marketing_triggers table
+    CREATE TABLE marketing_triggers (
+    id SERIAL PRIMARY KEY,
+    event_type VARCHAR(50),       -- 'abandoned_cart', 'order_complete'
+    target_id INT,                -- user_id or product_id
+    payload JSONB,
+    executed BOOLEAN DEFAULT FALSE,
+    scheduled_at TIMESTAMP,
+    created_at TIMESTAMP DEFAULT NOW()
+    );
+
+
+    This allows fully dynamic content, multi-language support, and marketing automation.
+    3. Dynamic SEO / Next.js Integration
+    next-seo reads product/category translations from DB.
+    next-sitemap auto-generates multilingual sitemaps.
+    @vercel/og generates dynamic social images.
+    Example: pages/product/[slug].tsx
+    export async function getServerSideProps({ params, locale }) {
+    const product = await db.getProductBySlug(params.slug);
+    const translation = await db.getProductTranslation(product.id, locale);
+    
+    return {
+        props: {
+        product,
+        translation,
+        }
+    };
+    }
+
+    4. Marketing Automation
+
+    Every event in DB (like order placed, cart abandoned) triggers:
+
+    // utils/marketing.ts
+    import sendgrid from '@sendgrid/mail';
+    import twilio from 'twilio';
+
+    export async function sendEmail(to, subject, html) {
+    await sendgrid.send({ to, subject, html, from: 'no-reply@elpazar.com' });
+    }
+
+    export async function sendSMS(to, message) {
+    const client = twilio(process.env.TWILIO_SID, process.env.TWILIO_TOKEN);
+    await client.messages.create({ body: message, from: process.env.TWILIO_NUMBER, to });
+    }
+
+
+    You can later build a UI for marketing managers to schedule campaigns.
+    5. Usage of locales/* files
+    Static UI content only: menus, labels, buttons, system messages.
+    Dynamic product/category content never goes into locales, only in DB.
+    This ensures your system scales to millions of products without bloating JSON files.
+    6. Summary
+    Locales → static UI text only.
+    Database → all dynamic content, SEO, marketing triggers.
+    Frontend → Next.js + Redux, dynamic SEO, i18n, analytics.
+    Marketing layer → Node.js APIs integrate with email/SMS/SEM.
+    Dynamic pages → product/category/blog pages are rendered SSR/SSG.
+    ✅ This structure is similar to Amazon, Alibaba, Noon, Talabat: highly dynamic, DB-driven, i18n-ready, SEO-optimized, marketing automation-ready.
+
+
+
+
+
+
+
+
+
+
+
+
+
+1️⃣ Where should APIs live? Frontend vs Backend
+    You have two main options:
+    Option A: Full Next.js API (frontend/src/pages/api)
+    Next.js supports API routes inside pages/api/*.
+    These are serverless functions that run on the server side.
+    Pros:
+    Quick to build; you don’t need a separate backend project.
+    Same codebase for frontend + backend logic.
+    Easy to access database securely.
+    Cons:
+    Can become messy for large, enterprise-level systems.
+    Harder to scale independently from frontend (e.g., microservices).
+    Usage Example:
+    frontend/pages/api/products/[id].ts
+    frontend/pages/api/users/[id].ts
+    import type { NextApiRequest, NextApiResponse } from 'next';
+    import { db } from '../../../lib/db';
+
+    export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+        const { id } = req.query;
+        const product = await db.product.findUnique({ where: { id: Number(id) } });
+        res.status(200).json(product);
+    }
+
+    Option B: Dedicated Backend
+    Keep all APIs in a backend folder/project, e.g., backend/.
+    Frontend calls APIs via REST or GraphQL (https://api.elpazar.com/products/123).
+    Pros:
+    Enterprise-level architecture: separates concerns, easier scaling.
+    Can use TypeORM, Prisma, NestJS, Express, etc., fully optimized.
+    Better for microservices, queues, marketing automation, heavy computation.
+    Cons:
+    Extra deployment; two projects instead of one.
+    Slightly slower dev cycle for small teams.
+    Hybrid Option (Recommended for Big Marketplaces)
+    Keep critical/complex APIs in backend (products, orders, marketing triggers).
+    Keep simple utility APIs in frontend Next.js if needed (session checks, small forms).
+    ✅ This is exactly what Amazon/Alibaba do: scalable backend, frontend calls APIs via fetch/GraphQL.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rendering Strategy:
+    1️⃣ CSR / Dynamic Rendering (Client-Side Rendering)
+        Used for:
+            Dashboards and user portals
+            (/dashboard, /supplier, /orders, /marketing, /AI, etc.)
+            Product data that changes dynamically (e.g. price based on selected variation)
+        Characteristics:
+            Rendering happens entirely in the browser after page load.
+            No getServerSideProps or getStaticProps — those are server-side methods.
+            Data fetched client-side using:
+                React Query (preferred) or SWR for caching, pagination, etc.
+                WebSockets or polling for real-time updates (shipments, orders, notifications).
+            Ideal for:
+                Authenticated areas (user-specific data)
+                High-frequency updates (prices, order statuses)
+                Personalized content
+
+    2️⃣ ISR / Incremental Static Regeneration
+        Used for:
+            Public and mostly static pages:
+                Marketing pages (/, /about, /services, /contact)
+                Product static information (title, description, images)
+                Dashboard static sections (e.g. notes, header info that changes rarely)
+            Characteristics:
+                Pages are pre-rendered as static HTML at build time.
+                Regenerated in the background after the revalidate period expires.
+                Allows SEO-friendly pages for all locales and markets.
+                Combines the benefits of SSG (speed) and SSR (freshness).
+                Data like dynamic pricing or stock levels can still be fetched via CSR on top of the static shell.
+
+
+                Rendering Type                       Where HTML is Generated	         When HTML is Generated     	            How Data is Fetched	                                    Speed (First Load)	                        SEO Friendly	                            Best For	                                                                                Example Tools / Methods	                            Revalidation	                                Notes / Relationship
+                SSR (Server-Side Rendering)	            On the server	                 Every request	                            On the server (via getServerSideProps)	                Medium (depends on server speed)	        ✅ Excellent	                                Pages that need always up-to-date data (e.g., product stock, pricing, dashboards)	        Next.js getServerSideProps()	                    ❌ No caching (fresh every request)	        Closest to traditional web apps. Slower under heavy traffic.
+                CSR (Client-Side Rendering)	            On the client (browser)	         After page load	                        On the client (via API calls, React Query, SWR, etc.)	Slow initial load, fast after hydration	    ⚠️ Weak (needs extra config for SEO)	    Dashboards, portals, authenticated areas	                                                React, React Query, Axios	                        N/A	                                            Gives best interactivity. Not SEO-friendly alone.
+                SSG (Static Site Generation)	        On the server at build time	     Once at build	                            During build	                                        🚀 Very fast	                            ✅ Excellent	                                Blogs, landing pages, static marketing pages	                                            Next.js getStaticProps()	                        ❌ No revalidation (fully static)	        Perfect for content that rarely changes.
+                ISR (Incremental Static Regeneration)	On the server (like SSG)	     At build + after revalidation interval	    During build + regenerated after interval	            ⚡ Fast + keeps data fairly fresh	        ✅ Excellent	                                Product pages, catalogs, blogs updated occasionally                                         Next.js getStaticProps() with revalidate            ✅ Yes (every X seconds)                    Mix between SSG and SSR — cached until regeneration.
+
+                Concept	        How It Connects to the Others
+                CSR	            The base of all — used for client interactivity after initial render (even in SSR or ISR pages).
+                SSR	            Adds SEO and fresh data on top of CSR by pre-rendering HTML on the server for each request.
+                SSG	            Like SSR but only runs once during build — pages are static files.
+                ISR	            Improves SSG by rebuilding pages periodically, giving a middle ground between static and dynamic.

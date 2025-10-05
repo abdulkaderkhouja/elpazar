@@ -1,0 +1,4008 @@
+{
+    "AD": {
+        "name": {
+            "en": "Andorra",
+            "ar": "أندورا",
+            "fr": "Andorre"
+        },
+        "native": "Andorra",
+        "iso3": "AND",
+        "phone": [376],
+        "continent": "EU",
+        "capital": "Andorra la Vella",
+        "currency": ["EUR"],
+        "languages": ["ca"],
+        "cities": {
+            "en": ["Andorra la Vella", "Escaldes-Engordany", "Encamp", "La Massana", "Ordino", "Canillo", "Sant Julià de Lòria"],
+            "ar": ["أندورا لا فيلا", "إسكالدس إنغورداني", "إنكامب", "لا ماسانا", "أوردينو", "كانييو", "سانت خوليà دي لوريا"],
+            "fr": ["Andorre-la-Vieille", "Escaldes-Engordany", "Encamp", "La Massana", "Ordino", "Canillo", "Sant Julià de Lòria"]
+        }
+    },
+    "AE": {
+        "name": {
+            "en": "United Arab Emirates",
+            "ar": "الإمارات العربية المتحدة",
+            "fr": "Émirats arabes unis"
+        },
+        "native": "الإمارات",
+        "iso3": "ARE",
+        "phone": [971],
+        "continent": "AS",
+        "capital": "Abu Dhabi",
+        "currency": ["AED"],
+        "languages": ["ar"],
+        "cities": {
+            "en": ["Abu Dhabi", "Dubai", "Sharjah", "Ajman", "Fujairah", "Ras Al Khaimah", "Umm Al Quwain"],
+            "ar": ["أبو ظبي", "دبي", "الشارقة", "عجمان", "الفجيرة", "رأس الخيمة", "أم القيوين"],
+            "fr": ["Abou Dabi", "Dubaï", "Charjah", "Ajman", "Fujaïrah", "Ras el Khaïmah", "Oumm al Qaïwaïn"]
+        }
+    },
+    "AF": {
+        "name": {
+            "en": "Afghanistan",
+            "ar": "أفغانستان",
+            "fr": "Afghanistan"
+        },
+        "native": "افغانستان",
+        "iso3": "AFG",
+        "phone": [93],
+        "continent": "AS",
+        "capital": "Kabul",
+        "currency": ["AFN"],
+        "languages": ["ps", "fa", "uz"],
+        "cities": {
+            "en": ["Kabul", "Kandahar", "Herat", "Mazar-i-Sharif", "Jalalabad", "Kunduz", "Ghazni", "Balkh"],
+            "ar": ["كابل", "قندهار", "هرات", "مزار شريف", "جلال آباد", "قندوز", "غزني", "بلخ"],
+            "fr": ["Kaboul", "Kandahar", "Hérat", "Mazar-e Charif", "Djalalabad", "Kunduz", "Ghazni", "Balkh"]
+        }
+    },
+    "AG": {
+    "name": {
+        "en": "Antigua and Barbuda",
+        "ar": "أنتيغوا وبربودا",
+        "fr": "Antigua-et-Barbuda"
+    },
+    "native": "Antigua and Barbuda",
+    "iso3": "ATG",
+    "phone": [1268],
+    "continent": "NA",
+    "capital": "Saint John's",
+    "currency": ["XCD"],
+    "languages": ["en"],
+    "cities": {
+        "en": ["Saint John's", "All Saints", "Liberta", "Bolands"],
+        "ar": ["سانت جونز", "أول سينتس", "ليبرتا", "بولاندز"],
+        "fr": ["Saint John's", "All Saints", "Liberta", "Bolands"]
+    }
+    },
+    "AI": {
+        "name": {
+            "en": "Anguilla",
+            "ar": "أنغويلا",
+            "fr": "Anguilla"
+        },
+        "native": "Anguilla",
+        "iso3": "AIA",
+        "phone": [1264],
+        "continent": "NA",
+        "capital": "The Valley",
+        "currency": ["XCD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["The Valley", "Sandy Ground", "Blowing Point", "East End"],
+            "ar": ["ذا فالي", "ساندي غراوند", "بلووينغ بوينت", "إيست إند"],
+            "fr": ["The Valley", "Sandy Ground", "Blowing Point", "East End"]
+        }
+    },
+    "AL": {
+        "name": {
+            "en": "Albania",
+            "ar": "ألبانيا",
+            "fr": "Albanie"
+        },
+        "native": "Shqipëria",
+        "iso3": "ALB",
+        "phone": [355],
+        "continent": "EU",
+        "capital": "Tirana",
+        "currency": ["ALL"],
+        "languages": ["sq"],
+        "cities": {
+            "en": ["Tirana", "Durrës", "Vlorë", "Shkodër", "Fier"],
+            "ar": ["تيرانا", "دوريس", "فلوره", "شكودار", "فيير"],
+            "fr": ["Tirana", "Durrës", "Vlorë", "Shkodër", "Fier"]
+        }
+    },
+    "AM": {
+        "name": {
+            "en": "Armenia",
+            "ar": "أرمينيا",
+            "fr": "Arménie"
+        },
+        "native": "Հայաստան",
+        "iso3": "ARM",
+        "phone": [374],
+        "continent": "AS",
+        "capital": "Yerevan",
+        "currency": ["AMD"],
+        "languages": ["hy", "ru"],
+        "cities": {
+            "en": ["Yerevan", "Gyumri", "Vanadzor", "Vagharshapat", "Hrazdan"],
+            "ar": ["يريفان", "غيومري", "فانادزور", "فاغارشابات", "هرازدان"],
+            "fr": ["Erevan", "Gyumri", "Vanadzor", "Etchmiadzine", "Hrazdan"]
+        }
+    },
+    "AO": {
+        "name": {
+            "en": "Angola",
+            "ar": "أنغولا",
+            "fr": "Angola"
+        },
+        "native": "Angola",
+        "iso3": "AGO",
+        "phone": [244],
+        "continent": "AF",
+        "capital": "Luanda",
+        "currency": ["AOA"],
+        "languages": ["pt"],
+        "cities": {
+            "en": ["Luanda", "Huambo", "Lobito", "Benguela", "Kuito"],
+            "ar": ["لواندا", "هوانبو", "لوبيتو", "بنغيلا", "كويتو"],
+            "fr": ["Luanda", "Huambo", "Lobito", "Benguela", "Kuito"]
+        }
+    },
+    "AQ": {
+        "name": {
+            "en": "Antarctica",
+            "ar": "القارة القطبية الجنوبية",
+            "fr": "Antarctique"
+        },
+        "native": "Antarctica",
+        "iso3": "ATA",
+        "phone": [672],
+        "continent": "AN",
+        "capital": "",
+        "currency": [],
+        "languages": [],
+        "cities": {
+            "en": [],
+            "ar": [],
+            "fr": []
+        }
+    },
+    "AR": {
+        "name": {
+            "en": "Argentina",
+            "ar": "الأرجنتين",
+            "fr": "Argentine"
+        },
+        "native": "Argentina",
+        "iso3": "ARG",
+        "phone": [54],
+        "continent": "SA",
+        "capital": "Buenos Aires",
+        "currency": ["ARS"],
+        "languages": ["es", "gn"],
+        "cities": {
+            "en": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza", "La Plata"],
+            "ar": ["بوينس آيرس", "قرطبة", "روساريو", "ميندوزا", "لا بلاتا"],
+            "fr": ["Buenos Aires", "Cordoba", "Rosario", "Mendoza", "La Plata"]
+        }
+    },
+    "AS": {
+        "name": {
+            "en": "American Samoa",
+            "ar": "ساموا الأمريكية",
+            "fr": "Samoa américaines"
+        },
+        "native": "American Samoa",
+        "iso3": "ASM",
+        "phone": [1684],
+        "continent": "OC",
+        "capital": "Pago Pago",
+        "currency": ["USD"],
+        "languages": ["en", "sm"],
+        "cities": {
+            "en": ["Pago Pago", "Tafuna", "Nu'uuli", "Fagatogo"],
+            "ar": ["باغو باغو", "تافونا", "نوؤولي", "فاجاتوغو"],
+            "fr": ["Pago Pago", "Tafuna", "Nu'uuli", "Fagatogo"]
+        }
+    },
+    "AT": {
+        "name": {
+            "en": "Austria",
+            "ar": "النمسا",
+            "fr": "Autriche"
+        },
+        "native": "Österreich",
+        "iso3": "AUT",
+        "phone": [43],
+        "continent": "EU",
+        "capital": "Vienna",
+        "currency": ["EUR"],
+        "languages": ["de"],
+        "cities": {
+            "en": ["Vienna", "Graz", "Linz", "Salzburg", "Innsbruck"],
+            "ar": ["فيينا", "غراتس", "لينتس", "سالزبورغ", "إنسبروك"],
+            "fr": ["Vienne", "Graz", "Linz", "Salzbourg", "Innsbruck"]
+        }
+    },
+    "AU": {
+        "name": {
+            "en": "Australia",
+            "ar": "أستراليا",
+            "fr": "Australie"
+        },
+        "native": "Australia",
+        "iso3": "AUS",
+        "phone": [61],
+        "continent": "OC",
+        "capital": "Canberra",
+        "currency": ["AUD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Canberra", "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide"],
+            "ar": ["كانبيرا", "سيدني", "ملبورن", "بريسبان", "بيرث", "أديلايد"],
+            "fr": ["Canberra", "Sydney", "Melbourne", "Brisbane", "Perth", "Adélaïde"]
+        }
+    },
+    "AW": {
+        "name": {
+            "en": "Aruba",
+            "ar": "أروبا",
+            "fr": "Aruba"
+        },
+        "native": "Aruba",
+        "iso3": "ABW",
+        "phone": [297],
+        "continent": "NA",
+        "capital": "Oranjestad",
+        "currency": ["AWG"],
+        "languages": ["nl", "pa"],
+        "cities": {
+            "en": ["Oranjestad", "San Nicolas", "Santa Cruz", "Noord"],
+            "ar": ["أورانجيستاد", "سان نيكولاس", "سانتا كروز", "نورد"],
+            "fr": ["Oranjestad", "San Nicolas", "Santa Cruz", "Noord"]
+        }
+    },
+    "AX": {
+        "name": {
+            "en": "Åland Islands",
+            "ar": "جزر أولاند",
+            "fr": "Îles Åland"
+        },
+        "native": "Åland",
+        "iso3": "ALA",
+        "phone": [358],
+        "continent": "EU",
+        "capital": "Mariehamn",
+        "currency": ["EUR"],
+        "languages": ["sv"],
+        "partOf": "FI",
+        "cities": {
+            "en": ["Mariehamn", "Eckerö", "Jomala", "Lemland"],
+            "ar": ["ماريهامن", "إكيرو", "جومالا", "ليملاند"],
+            "fr": ["Mariehamn", "Eckerö", "Jomala", "Lemland"]
+        }
+    },
+    "AZ": {
+        "name": {
+            "en": "Azerbaijan",
+            "ar": "أذربيجان",
+            "fr": "Azerbaïdjan"
+        },
+        "native": "Azərbaycan",
+        "iso3": "AZE",
+        "phone": [994],
+        "continent": "AS",
+        "continents": ["AS", "EU"],
+        "capital": "Baku",
+        "currency": ["AZN"],
+        "languages": ["az"],
+        "cities": {
+            "en": ["Baku", "Ganja", "Sumqayit", "Lankaran", "Mingachevir"],
+            "ar": ["باكو", "غانجا", "سومقاييت", "لانكاران", "مينغاتشيفير"],
+            "fr": ["Bakou", "Gandja", "Soumgaït", "Lankaran", "Mingachevir"]
+        }
+    },
+    "BA": {
+        "name": {
+            "en": "Bosnia and Herzegovina",
+            "ar": "البوسنة والهرسك",
+            "fr": "Bosnie-Herzégovine"
+        },
+        "native": "Bosna i Hercegovina",
+        "iso3": "BIH",
+        "phone": [387],
+        "continent": "EU",
+        "capital": "Sarajevo",
+        "currency": ["BAM"],
+        "languages": ["bs", "hr", "sr"],
+        "cities": {
+            "en": ["Sarajevo", "Banja Luka", "Mostar", "Tuzla", "Zenica"],
+            "ar": ["سراييفو", "بانيا لوكا", "موستار", "توزلا", "زينيكا"],
+            "fr": ["Sarajevo", "Banja Luka", "Mostar", "Tuzla", "Zenica"]
+        }
+    },
+    "BB": {
+        "name": {
+            "en": "Barbados",
+            "ar": "بربادوس",
+            "fr": "Barbade"
+        },
+        "native": "Barbados",
+        "iso3": "BRB",
+        "phone": [1246],
+        "continent": "NA",
+        "capital": "Bridgetown",
+        "currency": ["BBD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Bridgetown", "Speightstown", "Oistins", "Holetown"],
+            "ar": ["بريدجتاون", "سبايتستاون", "أويستينس", "هوليتاون"],
+            "fr": ["Bridgetown", "Speightstown", "Oistins", "Holetown"]
+        }
+    },
+    "BD": {
+        "name": {
+            "en": "Bangladesh",
+            "ar": "بنغلاديش",
+            "fr": "Bangladesh"
+        },
+        "native": "বাংলাদেশ",
+        "iso3": "BGD",
+        "phone": [880],
+        "continent": "AS",
+        "capital": "Dhaka",
+        "currency": ["BDT"],
+        "languages": ["bn"],
+        "cities": {
+            "en": ["Dhaka", "Chittagong", "Khulna", "Rajshahi", "Sylhet"],
+            "ar": ["دكا", "شيتاغونغ", "خولنا", "راجشاهي", "سيلهيت"],
+            "fr": ["Dacca", "Chittagong", "Khulna", "Rajshahi", "Sylhet"]
+        }
+    },
+    "BE": {
+        "name": {
+            "en": "Belgium",
+            "ar": "بلجيكا",
+            "fr": "Belgique"
+        },
+        "native": "België / Belgique / Belgien",
+        "iso3": "BEL",
+        "phone": [32],
+        "continent": "EU",
+        "capital": "Brussels",
+        "currency": ["EUR"],
+        "languages": ["nl", "fr", "de"],
+        "cities": {
+            "en": ["Brussels", "Antwerp", "Ghent", "Bruges", "Leuven"],
+            "ar": ["بروكسل", "أنتويرب", "غنت", "بروج", "لوفان"],
+            "fr": ["Bruxelles", "Anvers", "Gand", "Bruges", "Louvain"]
+        }
+    },
+    "BF": {
+        "name": {
+            "en": "Burkina Faso",
+            "ar": "بوركينا فاسو",
+            "fr": "Burkina Faso"
+        },
+        "native": "Burkina Faso",
+        "iso3": "BFA",
+        "phone": [226],
+        "continent": "AF",
+        "capital": "Ouagadougou",
+        "currency": ["XOF"],
+        "languages": ["fr"],
+        "cities": {
+            "en": ["Ouagadougou", "Bobo-Dioulasso", "Koudougou", "Ouahigouya"],
+            "ar": ["واغادوغو", "بوبو ديولاسو", "كودوغو", "واهيغويا"],
+            "fr": ["Ouagadougou", "Bobo-Dioulasso", "Koudougou", "Ouahigouya"]
+        }
+    },
+    "BG": {
+        "name": {
+            "en": "Bulgaria",
+            "ar": "بلغاريا",
+            "fr": "Bulgarie"
+        },
+        "native": "България",
+        "iso3": "BGR",
+        "phone": [359],
+        "continent": "EU",
+        "capital": "Sofia",
+        "currency": ["BGN"],
+        "languages": ["bg"],
+        "cities": {
+            "en": ["Sofia", "Plovdiv", "Varna", "Burgas", "Ruse"],
+            "ar": ["صوفيا", "بلوفديف", "فارنا", "بورغاس", "روسه"],
+            "fr": ["Sofia", "Plovdiv", "Varna", "Bourgas", "Roussé"]
+        }
+    },
+    "BH": {
+        "name": {
+            "en": "Bahrain",
+            "ar": "البحرين",
+            "fr": "Bahreïn"
+        },
+        "native": "البحرين",
+        "iso3": "BHR",
+        "phone": [973],
+        "continent": "AS",
+        "capital": "Manama",
+        "currency": ["BHD"],
+        "languages": ["ar"],
+        "cities": {
+            "en": ["Manama", "Muharraq", "Riffa", "Isa Town"],
+            "ar": ["المنامة", "المحرق", "الرفاع", "مدينة عيسى"],
+            "fr": ["Manama", "Muharraq", "Riffa", "Isa Town"]
+        }
+    },
+    "BI": {
+        "name": {
+            "en": "Burundi",
+            "ar": "بوروندي",
+            "fr": "Burundi"
+        },
+        "native": "Burundi",
+        "iso3": "BDI",
+        "phone": [257],
+        "continent": "AF",
+        "capital": "Gitega",
+        "currency": ["BIF"],
+        "languages": ["fr", "rn"],
+        "cities": {
+            "en": ["Gitega", "Bujumbura", "Ngozi", "Ruyigi"],
+            "ar": ["غيتغا", "بوجمبورا", "نغوزي", "روييغي"],
+            "fr": ["Gitega", "Bujumbura", "Ngozi", "Ruyigi"]
+        }
+    },
+    "BJ": {
+        "name": {
+            "en": "Benin",
+            "ar": "بنين",
+            "fr": "Bénin"
+        },
+        "native": "Bénin",
+        "iso3": "BEN",
+        "phone": [229],
+        "continent": "AF",
+        "capital": "Porto-Novo",
+        "currency": ["XOF"],
+        "languages": ["fr"],
+        "cities": {
+            "en": ["Porto-Novo", "Cotonou", "Parakou", "Abomey"],
+            "ar": ["بورتو نوفو", "كوتونو", "باراكو", "أبومي"],
+            "fr": ["Porto-Novo", "Cotonou", "Parakou", "Abomey"]
+        }
+    },
+    "BL": {
+        "name": {
+            "en": "Saint Barthélemy",
+            "ar": "سان بارتليمي",
+            "fr": "Saint-Barthélemy"
+        },
+        "native": "Saint-Barthélemy",
+        "iso3": "BLM",
+        "phone": [590],
+        "continent": "NA",
+        "capital": "Gustavia",
+        "currency": ["EUR"],
+        "languages": ["fr"],
+        "cities": {
+            "en": ["Gustavia", "Saint-Jean", "Lorient"],
+            "ar": ["غوستافيا", "سان جان", "لورينت"],
+            "fr": ["Gustavia", "Saint-Jean", "Lorient"]
+        }
+    },
+    "BM": {
+        "name": {
+            "en": "Bermuda",
+            "ar": "برمودا",
+            "fr": "Bermudes"
+        },
+        "native": "Bermuda",
+        "iso3": "BMU",
+        "phone": [1441],
+        "continent": "NA",
+        "capital": "Hamilton",
+        "currency": ["BMD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Hamilton", "St. George's", "Somerset Village"],
+            "ar": ["هاميلتون", "سانت جورج", "قرية سومرست"],
+            "fr": ["Hamilton", "Saint George", "Somerset Village"]
+        }
+    },
+    "BN": {
+        "name": {
+            "en": "Brunei Darussalam",
+            "ar": "بروناي دار السلام",
+            "fr": "Brunei Darussalam"
+        },
+        "native": "Brunei Darussalam",
+        "iso3": "BRN",
+        "phone": [673],
+        "continent": "AS",
+        "capital": "Bandar Seri Begawan",
+        "currency": ["BND"],
+        "languages": ["ms", "en"],
+        "cities": {
+            "en": ["Bandar Seri Begawan", "Kuala Belait", "Seria", "Tutong"],
+            "ar": ["بندر سري بكاوان", "كوالا بيليت", "سيريا", "توتونغ"],
+            "fr": ["Bandar Seri Begawan", "Kuala Belait", "Seria", "Tutong"]
+        }
+    },
+    "BO": {
+        "name": {
+            "en": "Bolivia",
+            "ar": "بوليفيا",
+            "fr": "Bolivie"
+        },
+        "native": "Bolivia",
+        "iso3": "BOL",
+        "phone": [591],
+        "continent": "SA",
+        "capital": "Sucre",
+        "currency": ["BOB"],
+        "languages": ["es", "ay", "qu"],
+        "cities": {
+            "en": ["La Paz", "Sucre", "Santa Cruz", "Cochabamba", "El Alto"],
+            "ar": ["لاباز", "سوكري", "سانتا كروز", "كوتشابامبا", "إل ألتو"],
+            "fr": ["La Paz", "Sucre", "Santa Cruz", "Cochabamba", "El Alto"]
+        }
+    },
+    "BQ": {
+        "name": {
+            "en": "Caribbean Netherlands",
+            "ar": "جزر الكاريبي الهولندية",
+            "fr": "Pays-Bas caribéens"
+        },
+        "native": "Caribisch Nederland",
+        "iso3": "BES",
+        "phone": [599],
+        "continent": "NA",
+        "capital": "Kralendijk",
+        "currency": ["USD"],
+        "languages": ["nl", "pa", "en"],
+        "cities": {
+            "en": ["Kralendijk", "Oranjestad", "The Bottom"],
+            "ar": ["كرالينديك", "أورانجيستاد", "ذا بوتوم"],
+            "fr": ["Kralendijk", "Oranjestad", "The Bottom"]
+        }
+    },
+    "BR": {
+        "name": {
+            "en": "Brazil",
+            "ar": "البرازيل",
+            "fr": "Brésil"
+        },
+        "native": "Brasil",
+        "iso3": "BRA",
+        "phone": [55],
+        "continent": "SA",
+        "capital": "Brasília",
+        "currency": ["BRL"],
+        "languages": ["pt"],
+        "cities": {
+            "en": ["Brasília", "São Paulo", "Rio de Janeiro", "Salvador", "Fortaleza"],
+            "ar": ["برازيليا", "ساو باولو", "ريو دي جانيرو", "سلفادور", "فورتاليزا"],
+            "fr": ["Brasilia", "São Paulo", "Rio de Janeiro", "Salvador", "Fortaleza"]
+        }
+    },
+    "BS": {
+        "name": {
+            "en": "Bahamas",
+            "ar": "جزر البهاما",
+            "fr": "Bahamas"
+        },
+        "native": "Bahamas",
+        "iso3": "BHS",
+        "phone": [1242],
+        "continent": "NA",
+        "capital": "Nassau",
+        "currency": ["BSD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Nassau", "Freeport", "West End", "Marsh Harbour"],
+            "ar": ["ناسو", "فريبورت", "ويست إند", "مارش هاربور"],
+            "fr": ["Nassau", "Freeport", "West End", "Marsh Harbour"]
+        }
+    },
+    "BT": {
+        "name": {
+            "en": "Bhutan",
+            "ar": "بوتان",
+            "fr": "Bhoutan"
+        },
+        "native": "འབྲུག་ཡུལ",
+        "iso3": "BTN",
+        "phone": [975],
+        "continent": "AS",
+        "capital": "Thimphu",
+        "currency": ["BTN", "INR"],
+        "languages": ["dz"],
+        "cities": {
+            "en": ["Thimphu", "Phuntsholing", "Paro", "Punakha"],
+            "ar": ["تيمفو", "فونتشولينغ", "بارو", "بوناخا"],
+            "fr": ["Thimphu", "Phuntsholing", "Paro", "Punakha"]
+        }
+    },
+    "BW": {
+        "name": {
+            "en": "Botswana",
+            "ar": "بوتسوانا",
+            "fr": "Botswana"
+        },
+        "native": "Botswana",
+        "iso3": "BWA",
+        "phone": [267],
+        "continent": "AF",
+        "capital": "Gaborone",
+        "currency": ["BWP"],
+        "languages": ["en", "tn"],
+        "cities": {
+            "en": ["Gaborone", "Francistown", "Molepolole", "Maun"],
+            "ar": ["غابورون", "فرانسستاون", "موليبولولي", "ماون"],
+            "fr": ["Gaborone", "Francistown", "Molepolole", "Maun"]
+        }
+    },
+    "BY": {
+        "name": {
+            "en": "Belarus",
+            "ar": "بيلاروسيا",
+            "fr": "Biélorussie"
+        },
+        "native": "Беларусь",
+        "iso3": "BLR",
+        "phone": [375],
+        "continent": "EU",
+        "capital": "Minsk",
+        "currency": ["BYN"],
+        "languages": ["be", "ru"],
+        "cities": {
+            "en": ["Minsk", "Gomel", "Mogilev", "Vitebsk", "Hrodna"],
+            "ar": ["مينسك", "غوميل", "موغيليف", "فيتبسك", "غرودنو"],
+            "fr": ["Minsk", "Gomel", "Mogilev", "Vitebsk", "Grodno"]
+        }
+    },
+    "BZ": {
+        "name": {
+            "en": "Belize",
+            "ar": "بليز",
+            "fr": "Belize"
+        },
+        "native": "Belize",
+        "iso3": "BLZ",
+        "phone": [501],
+        "continent": "NA",
+        "capital": "Belmopan",
+        "currency": ["BZD"],
+        "languages": ["en", "es"],
+        "cities": {
+            "en": ["Belmopan", "Belize City", "San Ignacio", "Orange Walk"],
+            "ar": ["بلموبان", "مدينة بليز", "سان إغناسيو", "أورانج ووك"],
+            "fr": ["Belmopan", "Belize City", "San Ignacio", "Orange Walk"]
+        }
+    },
+    "CA": {
+        "name": {
+            "en": "Canada",
+            "ar": "كندا",
+            "fr": "Canada"
+        },
+        "native": "Canada",
+        "iso3": "CAN",
+        "phone": [1],
+        "continent": "NA",
+        "capital": "Ottawa",
+        "currency": ["CAD"],
+        "languages": ["en", "fr"],
+        "cities": {
+            "en": ["Ottawa", "Toronto", "Montreal", "Vancouver", "Calgary", "Edmonton", "Quebec City", "Winnipeg"],
+            "ar": ["أوتاوا", "تورونتو", "مونتريال", "فانكوفر", "كالغاري", "إدمونتون", "مدينة كيبك", "وينيبيغ"],
+            "fr": ["Ottawa", "Toronto", "Montréal", "Vancouver", "Calgary", "Edmonton", "Québec", "Winnipeg"]
+        }
+    },
+    "CC": {
+        "name": {
+            "en": "Cocos (Keeling) Islands",
+            "ar": "جزر كوكوس (كيلينغ)",
+            "fr": "Îles Cocos (Keeling)"
+        },
+        "native": "Cocos (Keeling) Islands",
+        "iso3": "CCK",
+        "phone": [61],
+        "continent": "AS",
+        "capital": "West Island",
+        "currency": ["AUD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["West Island"],
+            "ar": ["الجزيرة الغربية"],
+            "fr": ["West Island"]
+        }
+    },
+    "CD": {
+        "name": {
+            "en": "Democratic Republic of the Congo",
+            "ar": "جمهورية الكونغو الديمقراطية",
+            "fr": "République démocratique du Congo"
+        },
+        "native": "République démocratique du Congo",
+        "iso3": "COD",
+        "phone": [243],
+        "continent": "AF",
+        "capital": "Kinshasa",
+        "currency": ["CDF"],
+        "languages": ["fr", "ln", "kg", "sw", "lu"],
+        "cities": {
+            "en": ["Kinshasa", "Lubumbashi", "Mbuji-Mayi", "Kisangani", "Goma", "Bukavu"],
+            "ar": ["كينشاسا", "لوبومباشي", "مبوجي ماي", "كيسانغاني", "غوما", "بوكاڤو"],
+            "fr": ["Kinshasa", "Lubumbashi", "Mbuji-Mayi", "Kisangani", "Goma", "Bukavu"]
+        }
+    },
+    "CF": {
+        "name": {
+            "en": "Central African Republic",
+            "ar": "جمهورية أفريقيا الوسطى",
+            "fr": "République centrafricaine"
+        },
+        "native": "République centrafricaine",
+        "iso3": "CAF",
+        "phone": [236],
+        "continent": "AF",
+        "capital": "Bangui",
+        "currency": ["XAF"],
+        "languages": ["fr", "sg"],
+        "cities": {
+            "en": ["Bangui", "Bimbo", "Berbérati", "Kaga-Bandoro"],
+            "ar": ["بانغي", "بيمبو", "بيربيراتي", "كاغا باندورو"],
+            "fr": ["Bangui", "Bimbo", "Berbérati", "Kaga-Bandoro"]
+        }
+    },
+    "CG": {
+        "name": {
+            "en": "Republic of the Congo",
+            "ar": "جمهورية الكونغو",
+            "fr": "République du Congo"
+        },
+        "native": "République du Congo",
+        "iso3": "COG",
+        "phone": [242],
+        "continent": "AF",
+        "capital": "Brazzaville",
+        "currency": ["XAF"],
+        "languages": ["fr", "ln"],
+        "cities": {
+            "en": ["Brazzaville", "Pointe-Noire", "Dolisie", "Nkayi"],
+            "ar": ["برازافيل", "بوينت نوار", "دوليسي", "نكايي"],
+            "fr": ["Brazzaville", "Pointe-Noire", "Dolisie", "Nkayi"]
+        }
+    },
+    "CH": {
+        "name": {
+            "en": "Switzerland",
+            "ar": "سويسرا",
+            "fr": "Suisse"
+        },
+        "native": "Schweiz",
+        "iso3": "CHE",
+        "phone": [41],
+        "continent": "EU",
+        "capital": "Bern",
+        "currency": ["CHF"],
+        "languages": ["de", "fr", "it", "rm"],
+        "cities": {
+            "en": ["Bern", "Zurich", "Geneva", "Basel", "Lausanne", "Lucerne"],
+            "ar": ["برن", "زيورخ", "جنيف", "بازل", "لوزان", "لوسيرن"],
+            "fr": ["Berne", "Zurich", "Genève", "Bâle", "Lausanne", "Lucerne"]
+        }
+    },
+    "CI": {
+        "name": {
+            "en": "Ivory Coast",
+            "ar": "ساحل العاج",
+            "fr": "Côte d’Ivoire"
+        },
+        "native": "Côte d’Ivoire",
+        "iso3": "CIV",
+        "phone": [225],
+        "continent": "AF",
+        "capital": "Yamoussoukro",
+        "currency": ["XOF"],
+        "languages": ["fr"],
+        "cities": {
+            "en": ["Yamoussoukro", "Abidjan", "Bouaké", "Daloa", "Korhogo"],
+            "ar": ["ياموسوكرو", "أبيدجان", "بواكيه", "دالوا", "كورهوغو"],
+            "fr": ["Yamoussoukro", "Abidjan", "Bouaké", "Daloa", "Korhogo"]
+        }
+    },
+    "CK": {
+        "name": {
+            "en": "Cook Islands",
+            "ar": "جزر كوك",
+            "fr": "Îles Cook"
+        },
+        "native": "Cook Islands",
+        "iso3": "COK",
+        "phone": [682],
+        "continent": "OC",
+        "capital": "Avarua",
+        "currency": ["NZD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Avarua"],
+            "ar": ["أفاروا"],
+            "fr": ["Avarua"]
+        }
+    },
+    "CL": {
+        "name": {
+            "en": "Chile",
+            "ar": "تشيلي",
+            "fr": "Chili"
+        },
+        "native": "Chile",
+        "iso3": "CHL",
+        "phone": [56],
+        "continent": "SA",
+        "capital": "Santiago",
+        "currency": ["CLP"],
+        "languages": ["es"],
+        "cities": {
+            "en": ["Santiago", "Valparaíso", "Concepción", "La Serena", "Antofagasta"],
+            "ar": ["سانتياغو", "فالبارايسو", "كونثبثيون", "لا سيرينا", "أنتوفاغاستا"],
+            "fr": ["Santiago", "Valparaíso", "Concepción", "La Serena", "Antofagasta"]
+        }
+    },
+    "CM": {
+        "name": {
+            "en": "Cameroon",
+            "ar": "الكاميرون",
+            "fr": "Cameroun"
+        },
+        "native": "Cameroon",
+        "iso3": "CMR",
+        "phone": [237],
+        "continent": "AF",
+        "capital": "Yaoundé",
+        "currency": ["XAF"],
+        "languages": ["en", "fr"],
+        "cities": {
+            "en": ["Yaoundé", "Douala", "Garoua", "Maroua", "Bamenda"],
+            "ar": ["ياوندي", "دوالا", "غاروا", "ماروا", "بامندا"],
+            "fr": ["Yaoundé", "Douala", "Garoua", "Maroua", "Bamenda"]
+        }
+    },
+    "CN": {
+        "name": {
+            "en": "China",
+            "ar": "الصين",
+            "fr": "Chine"
+        },
+        "native": "中国",
+        "iso3": "CHN",
+        "phone": [86],
+        "continent": "AS",
+        "capital": "Beijing",
+        "currency": ["CNY"],
+        "languages": ["zh"],
+        "cities": {
+            "en": ["Beijing", "Shanghai", "Guangzhou", "Shenzhen", "Chengdu", "Wuhan"],
+            "ar": ["بكين", "شنغهاي", "قوانغتشو", "شنتشن", "تشنغدو", "ووهان"],
+            "fr": ["Pékin", "Shanghai", "Canton", "Shenzhen", "Chengdu", "Wuhan"]
+        }
+    },
+    "CO": {
+        "name": {
+            "en": "Colombia",
+            "ar": "كولومبيا",
+            "fr": "Colombie"
+        },
+        "native": "Colombia",
+        "iso3": "COL",
+        "phone": [57],
+        "continent": "SA",
+        "capital": "Bogotá",
+        "currency": ["COP"],
+        "languages": ["es"],
+        "cities": {
+            "en": ["Bogotá", "Medellín", "Cali", "Barranquilla", "Cartagena"],
+            "ar": ["بوغوتا", "ميديلين", "كالي", "بارانكويلا", "قرطاجنة"],
+            "fr": ["Bogotá", "Medellín", "Cali", "Barranquilla", "Carthagène"]
+        }
+    },
+    "CR": {
+        "name": {
+            "en": "Costa Rica",
+            "ar": "كوستاريكا",
+            "fr": "Costa Rica"
+        },
+        "native": "Costa Rica",
+        "iso3": "CRI",
+        "phone": [506],
+        "continent": "NA",
+        "capital": "San José",
+        "currency": ["CRC"],
+        "languages": ["es"],
+        "cities": {
+            "en": ["San José", "Alajuela", "Cartago", "Heredia", "Puntarenas"],
+            "ar": ["سان خوسيه", "ألاخويلا", "كارتاغو", "هيريديا", "بونتاريناس"],
+            "fr": ["San José", "Alajuela", "Cartago", "Heredia", "Puntarenas"]
+        }
+    },
+    "CU": {
+        "name": {
+            "en": "Cuba",
+            "ar": "كوبا",
+            "fr": "Cuba"
+        },
+        "native": "Cuba",
+        "iso3": "CUB",
+        "phone": [53],
+        "continent": "NA",
+        "capital": "Havana",
+        "currency": ["CUP"],
+        "languages": ["es"],
+        "cities": {
+            "en": ["Havana", "Santiago de Cuba", "Camagüey", "Holguín"],
+            "ar": ["هافانا", "سانتياغو دي كوبا", "كاماغوي", "هولغوين"],
+            "fr": ["La Havane", "Santiago de Cuba", "Camagüey", "Holguín"]
+        }
+    },
+    "CV": {
+        "name": {
+            "en": "Cape Verde",
+            "ar": "الرأس الأخضر",
+            "fr": "Cap-Vert"
+        },
+        "native": "Cabo Verde",
+        "iso3": "CPV",
+        "phone": [238],
+        "continent": "AF",
+        "capital": "Praia",
+        "currency": ["CVE"],
+        "languages": ["pt"],
+        "cities": {
+            "en": ["Praia", "Mindelo", "Santa Maria", "Assomada"],
+            "ar": ["برايا", "مينديلو", "سانتا ماريا", "أسومايدا"],
+            "fr": ["Praia", "Mindelo", "Santa Maria", "Assomada"]
+        }
+    },
+    "CY": {
+        "name": {
+            "en": "Cyprus",
+            "ar": "قبرص",
+            "fr": "Chypre"
+        },
+        "native": "Κύπρος",
+        "iso3": "CYP",
+        "phone": [357],
+        "continent": "EU",
+        "capital": "Nicosia",
+        "currency": ["EUR"],
+        "languages": ["el", "tr", "en"],
+        "cities": {
+            "en": ["Nicosia", "Limassol", "Larnaca", "Paphos", "Famagusta"],
+            "ar": ["نيقوسيا", "ليماسول", "لارنكا", "بافوس", "فاماغوستا"],
+            "fr": ["Nicosie", "Limassol", "Larnaca", "Paphos", "Famagouste"]
+        }
+    },
+    "CZ": {
+        "name": {
+            "en": "Czech Republic",
+            "ar": "جمهورية التشيك",
+            "fr": "République tchèque"
+        },
+        "native": "Česká republika",
+        "iso3": "CZE",
+        "phone": [420],
+        "continent": "EU",
+        "capital": "Prague",
+        "currency": ["CZK"],
+        "languages": ["cs"],
+        "cities": {
+            "en": ["Prague", "Brno", "Ostrava", "Plzeň", "Liberec"],
+            "ar": ["براغ", "برنو", "أوسترافا", "بلزن", "ليبيريتس"],
+            "fr": ["Prague", "Brno", "Ostrava", "Plzeň", "Liberec"]
+        }
+    },
+    "DE": {
+        "name": {
+            "en": "Germany",
+            "ar": "ألمانيا",
+            "fr": "Allemagne"
+        },
+        "native": "Deutschland",
+        "iso3": "DEU",
+        "phone": [49],
+        "continent": "EU",
+        "capital": "Berlin",
+        "currency": ["EUR"],
+        "languages": ["de"],
+        "cities": {
+            "en": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", "Düsseldorf", "Dresden"],
+            "ar": ["برلين", "هامبورغ", "ميونخ", "كولونيا", "فرانكفورت", "شتوتغارت", "دوسلدورف", "درسدن"],
+            "fr": ["Berlin", "Hambourg", "Munich", "Cologne", "Francfort", "Stuttgart", "Düsseldorf", "Dresde"]
+        }
+    },
+    "DJ": {
+        "name": {
+            "en": "Djibouti",
+            "ar": "جيبوتي",
+            "fr": "Djibouti"
+        },
+        "native": "Djibouti",
+        "iso3": "DJI",
+        "phone": [253],
+        "continent": "AF",
+        "capital": "Djibouti",
+        "currency": ["DJF"],
+        "languages": ["fr", "ar"],
+        "cities": {
+            "en": ["Djibouti", "Ali Sabieh", "Tadjourah", "Obock"],
+            "ar": ["جيبوتي", "علي صبيح", "تادجوراه", "أوبوك"],
+            "fr": ["Djibouti", "Ali Sabieh", "Tadjourah", "Obock"]
+        }
+    },
+    "DK": {
+        "name": {
+            "en": "Denmark",
+            "ar": "الدنمارك",
+            "fr": "Danemark"
+        },
+        "native": "Danmark",
+        "iso3": "DNK",
+        "phone": [45],
+        "continent": "EU",
+        "capital": "Copenhagen",
+        "currency": ["DKK"],
+        "languages": ["da"],
+        "cities": {
+            "en": ["Copenhagen", "Aarhus", "Odense", "Aalborg", "Esbjerg"],
+            "ar": ["كوبنهاغن", "آرهوس", "أودنسه", "آلبورغ", "إسبيرغ"],
+            "fr": ["Copenhague", "Aarhus", "Odense", "Aalborg", "Esbjerg"]
+        }
+    },
+    "DM": {
+        "name": {
+            "en": "Dominica",
+            "ar": "دومينيكا",
+            "fr": "Dominique"
+        },
+        "native": "Dominica",
+        "iso3": "DMA",
+        "phone": [1767],
+        "continent": "NA",
+        "capital": "Roseau",
+        "currency": ["XCD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Roseau", "Portsmouth", "Marigot"],
+            "ar": ["روسو", "بورتسموث", "ماريغو"],
+            "fr": ["Roseau", "Portsmouth", "Marigot"]
+        }
+    },
+    "DO": {
+        "name": {
+            "en": "Dominican Republic",
+            "ar": "جمهورية الدومينيكان",
+            "fr": "République dominicaine"
+        },
+        "native": "República Dominicana",
+        "iso3": "DOM",
+        "phone": [1809, 1829, 1849],
+        "continent": "NA",
+        "capital": "Santo Domingo",
+        "currency": ["DOP"],
+        "languages": ["es"],
+        "cities": {
+            "en": ["Santo Domingo", "Santiago de los Caballeros", "La Romana", "San Pedro de Macorís"],
+            "ar": ["سانتو دومينغو", "سانتياغو دي لوس كاباليروس", "لا رومانا", "سان بيدرو دي ماكوريس"],
+            "fr": ["Saint-Domingue", "Santiago de los Caballeros", "La Romana", "San Pedro de Macorís"]
+        }
+    },
+    "DZ": {
+        "name": {
+            "en": "Algeria",
+            "ar": "الجزائر",
+            "fr": "Algérie"
+        },
+        "native": "الجزائر",
+        "iso3": "DZA",
+        "phone": [213],
+        "continent": "AF",
+        "capital": "Algiers",
+        "currency": ["DZD"],
+        "languages": ["ar", "fr", "kab"],
+        "cities": {
+            "en": ["Algiers", "Oran", "Constantine", "Annaba", "Blida", "Tlemcen", "Béjaïa"],
+            "ar": ["الجزائر", "وهران", "قسنطينة", "عنابة", "البليدة", "تلمسان", "بجاية"],
+            "fr": ["Alger", "Oran", "Constantine", "Annaba", "Blida", "Tlemcen", "Béjaïa"]
+        }
+    },
+    "EA": {
+        "name": {
+            "en": "Ceuta and Melilla",
+            "ar": "سبتة ومليلية",
+            "fr": "Ceuta et Melilla"
+        },
+        "native": "Ceuta y Melilla",
+        "iso3": "",
+        "phone": [34],
+        "continent": "EU",
+        "capital": "",
+        "currency": ["EUR"],
+        "languages": ["es"],
+        "cities": {
+            "en": ["Ceuta", "Melilla"],
+            "ar": ["سبتة", "مليلية"],
+            "fr": ["Ceuta", "Melilla"]
+        }
+    },
+    "EC": {
+        "name": {
+            "en": "Ecuador",
+            "ar": "الإكوادور",
+            "fr": "Équateur"
+        },
+        "native": "Ecuador",
+        "iso3": "ECU",
+        "phone": [593],
+        "continent": "SA",
+        "capital": "Quito",
+        "currency": ["USD"],
+        "languages": ["es"],
+        "cities": {
+            "en": ["Quito", "Guayaquil", "Cuenca", "Santo Domingo", "Machala"],
+            "ar": ["كيتو", "غواياكيل", "كوينكا", "سانتو دومينغو", "ماشالا"],
+            "fr": ["Quito", "Guayaquil", "Cuenca", "Santo Domingo", "Machala"]
+        }
+    },
+    "EE": {
+        "name": {
+            "en": "Estonia",
+            "ar": "إستونيا",
+            "fr": "Estonie"
+        },
+        "native": "Eesti",
+        "iso3": "EST",
+        "phone": [372],
+        "continent": "EU",
+        "capital": "Tallinn",
+        "currency": ["EUR"],
+        "languages": ["et"],
+        "cities": {
+            "en": ["Tallinn", "Tartu", "Narva", "Pärnu"],
+            "ar": ["تالين", "تارتو", "نارفا", "بارنو"],
+            "fr": ["Tallinn", "Tartu", "Narva", "Pärnu"]
+        }
+    },
+    "EG": {
+        "name": {
+            "en": "Egypt",
+            "ar": "مصر",
+            "fr": "Égypte"
+        },
+        "native": "مصر",
+        "iso3": "EGY",
+        "phone": [20],
+        "continent": "AF",
+        "capital": "Cairo",
+        "currency": ["EGP"],
+        "languages": ["ar"],
+        "cities": {
+            "en": ["Cairo", "Alexandria", "Giza", "Shubra El-Kheima", "Port Said"],
+            "ar": ["القاهرة", "الإسكندرية", "الجيزة", "شبرا الخيمة", "بورسعيد"],
+            "fr": ["Le Caire", "Alexandrie", "Gizeh", "Shubra El-Kheima", "Port-Saïd"]
+        }
+    },
+    "EH": {
+        "name": {
+            "en": "Western Sahara",
+            "ar": "الصحراء الغربية",
+            "fr": "Sahara Occidental"
+        },
+        "native": "Sahara Occidental",
+        "iso3": "ESH",
+        "phone": [212],
+        "continent": "AF",
+        "capital": "El Aaiún",
+        "currency": ["MAD"],
+        "languages": ["ar", "es"],
+        "cities": {
+            "en": ["El Aaiún", "Smara", "Dakhla", "Bir Lehlou"],
+            "ar": ["العيون", "سمارة", "الداخلة", "بير لحلو"],
+            "fr": ["El Aaiún", "Smara", "Dakhla", "Bir Lehlou"]
+        }
+    },
+    "ER": {
+        "name": {
+            "en": "Eritrea",
+            "ar": "إريتريا",
+            "fr": "Érythrée"
+        },
+        "native": "ኤርትራ",
+        "iso3": "ERI",
+        "phone": [291],
+        "continent": "AF",
+        "capital": "Asmara",
+        "currency": ["ERN"],
+        "languages": ["ti", "ar", "en"],
+        "cities": {
+            "en": ["Asmara", "Keren", "Massawa", "Assab"],
+            "ar": ["أسمرة", "كرين", "مصوع", "عصب"],
+            "fr": ["Asmara", "Keren", "Massawa", "Assab"]
+        }
+    },
+    "ES": {
+        "name": {
+            "en": "Spain",
+            "ar": "إسبانيا",
+            "fr": "Espagne"
+        },
+        "native": "España",
+        "iso3": "ESP",
+        "phone": [34],
+        "continent": "EU",
+        "capital": "Madrid",
+        "currency": ["EUR"],
+        "languages": ["es"],
+        "cities": {
+            "en": ["Madrid", "Barcelona", "Valencia", "Seville", "Zaragoza", "Málaga", "Murcia", "Palma"],
+            "ar": ["مدريد", "برشلونة", "فالنسيا", "إشبيلية", "سرقسطة", "مالقة", "مورسيا", "بالما"],
+            "fr": ["Madrid", "Barcelone", "Valence", "Séville", "Saragosse", "Málaga", "Murcie", "Palma"]
+        }
+    },
+    "ET": {
+        "name": {
+            "en": "Ethiopia",
+            "ar": "إثيوبيا",
+            "fr": "Éthiopie"
+        },
+        "native": "ኢትዮጵያ",
+        "iso3": "ETH",
+        "phone": [251],
+        "continent": "AF",
+        "capital": "Addis Ababa",
+        "currency": ["ETB"],
+        "languages": ["am"],
+        "cities": {
+            "en": ["Addis Ababa", "Dire Dawa", "Mekelle", "Gondar", "Bahir Dar"],
+            "ar": ["أديس أبابا", "دير داوا", "مكلي", "غوندار", "باهير دار"],
+            "fr": ["Addis-Abeba", "Dire Dawa", "Mekelle", "Gondar", "Bahir Dar"]
+        }
+    },
+    "FI": {
+        "name": {
+            "en": "Finland",
+            "ar": "فنلندا",
+            "fr": "Finlande"
+        },
+        "native": "Suomi",
+        "iso3": "FIN",
+        "phone": [358],
+        "continent": "EU",
+        "capital": "Helsinki",
+        "currency": ["EUR"],
+        "languages": ["fi", "sv"],
+        "cities": {
+            "en": ["Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu", "Turku"],
+            "ar": ["هلسنكي", "إسبو", "تامبيري", "فانتا", "أولو", "توركو"],
+            "fr": ["Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu", "Turku"]
+        }
+    },
+    "FJ": {
+        "name": {
+            "en": "Fiji",
+            "ar": "فيجي",
+            "fr": "Fidji"
+        },
+        "native": "Fiji",
+        "iso3": "FJI",
+        "phone": [679],
+        "continent": "OC",
+        "capital": "Suva",
+        "currency": ["FJD"],
+        "languages": ["en", "fj", "hi"],
+        "cities": {
+            "en": ["Suva", "Nadi", "Lautoka", "Labasa"],
+            "ar": ["سوفا", "نادي", "لاوتوكا", "لاباسا"],
+            "fr": ["Suva", "Nadi", "Lautoka", "Labasa"]
+        }
+    },
+    "FK": {
+        "name": {
+            "en": "Falkland Islands",
+            "ar": "جزر فوكلاند",
+            "fr": "Îles Malouines"
+        },
+        "native": "Falkland Islands",
+        "iso3": "FLK",
+        "phone": [500],
+        "continent": "SA",
+        "capital": "Stanley",
+        "currency": ["FKP"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Stanley"],
+            "ar": ["ستانلي"],
+            "fr": ["Stanley"]
+        }
+    },
+    "FM": {
+        "name": {
+            "en": "Micronesia",
+            "ar": "ميكرونيزيا",
+            "fr": "Micronésie"
+        },
+        "native": "Federated States of Micronesia",
+        "iso3": "FSM",
+        "phone": [691],
+        "continent": "OC",
+        "capital": "Palikir",
+        "currency": ["USD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Palikir", "Weno", "Kolonia"],
+            "ar": ["بالكير", "وينو", "كولونيا"],
+            "fr": ["Palikir", "Weno", "Kolonia"]
+        }
+    },
+    "FO": {
+        "name": {
+            "en": "Faroe Islands",
+            "ar": "جزر فارو",
+            "fr": "Îles Féroé"
+        },
+        "native": "Føroyar",
+        "iso3": "FRO",
+        "phone": [298],
+        "continent": "EU",
+        "capital": "Tórshavn",
+        "currency": ["DKK"],
+        "languages": ["fo", "da"],
+        "cities": {
+            "en": ["Tórshavn", "Klaksvík", "Runavík"],
+            "ar": ["تورشافن", "كلاكسفيك", "رونافي"],
+            "fr": ["Tórshavn", "Klaksvík", "Runavík"]
+        }
+    },
+    "FR": {
+        "name": {
+            "en": "France",
+            "ar": "فرنسا",
+            "fr": "France"
+        },
+        "native": "France",
+        "iso3": "FRA",
+        "phone": [33],
+        "continent": "EU",
+        "capital": "Paris",
+        "currency": ["EUR"],
+        "languages": ["fr"],
+        "cities": {
+            "en": ["Paris", "Marseille", "Lyon", "Toulouse", "Nice", "Nantes", "Strasbourg"],
+            "ar": ["باريس", "مرسيليا", "ليون", "تولوز", "نيس", "نانت", "ستراسبورغ"],
+            "fr": ["Paris", "Marseille", "Lyon", "Toulouse", "Nice", "Nantes", "Strasbourg"]
+        }
+    },
+    "GA": {
+        "name": {
+            "en": "Gabon",
+            "ar": "الغابون",
+            "fr": "Gabon"
+        },
+        "native": "Gabon",
+        "iso3": "GAB",
+        "phone": [241],
+        "continent": "AF",
+        "capital": "Libreville",
+        "currency": ["XAF"],
+        "languages": ["fr"],
+        "cities": {
+            "en": ["Libreville", "Port-Gentil", "Franceville"],
+            "ar": ["ليبرفيل", "بور-جنتيل", "فرانسفيل"],
+            "fr": ["Libreville", "Port-Gentil", "Franceville"]
+        }
+    },
+    "GB": {
+        "name": {
+            "en": "United Kingdom",
+            "ar": "المملكة المتحدة",
+            "fr": "Royaume-Uni"
+        },
+        "native": "United Kingdom",
+        "iso3": "GBR",
+        "phone": [44],
+        "continent": "EU",
+        "capital": "London",
+        "currency": ["GBP"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["London", "Manchester", "Birmingham", "Glasgow", "Liverpool", "Leeds"],
+            "ar": ["لندن", "مانشستر", "برمنغهام", "غلاسكو", "ليفربول", "ليدز"],
+            "fr": ["Londres", "Manchester", "Birmingham", "Glasgow", "Liverpool", "Leeds"]
+        }
+    },
+    "GD": {
+        "name": {
+            "en": "Grenada",
+            "ar": "غرينادا",
+            "fr": "Grenade"
+        },
+        "native": "Grenada",
+        "iso3": "GRD",
+        "phone": [1473],
+        "continent": "NA",
+        "capital": "St. George's",
+        "currency": ["XCD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["St. George's", "Gouyave", "Grenville"],
+            "ar": ["سانت جورج", "جوايڤ", "غرينفيل"],
+            "fr": ["St. George's", "Gouyave", "Grenville"]
+        }
+    },
+    "GE": {
+        "name": {
+            "en": "Georgia",
+            "ar": "جورجيا",
+            "fr": "Géorgie"
+        },
+        "native": "საქართველო",
+        "iso3": "GEO",
+        "phone": [995],
+        "continent": "AS",
+        "capital": "Tbilisi",
+        "currency": ["GEL"],
+        "languages": ["ka"],
+        "cities": {
+            "en": ["Tbilisi", "Kutaisi", "Batumi", "Rustavi"],
+            "ar": ["تبليسي", "كوتايسي", "باتومي", "روستافي"],
+            "fr": ["Tbilissi", "Koutaïssi", "Batoumi", "Rustavi"]
+        }
+    },
+    "GF": {
+        "name": {
+            "en": "French Guiana",
+            "ar": "غيانا الفرنسية",
+            "fr": "Guyane française"
+        },
+        "native": "Guyane française",
+        "iso3": "GUF",
+        "phone": [594],
+        "continent": "SA",
+        "capital": "Cayenne",
+        "currency": ["EUR"],
+        "languages": ["fr"],
+        "cities": {
+            "en": ["Cayenne", "Saint-Laurent-du-Maroni", "Kourou"],
+            "ar": ["كاين", "سانت لوران دو ماروني", "كورو"],
+            "fr": ["Cayenne", "Saint-Laurent-du-Maroni", "Kourou"]
+        }
+    },
+    "GG": {
+        "name": {
+            "en": "Guernsey",
+            "ar": "غيرنزي",
+            "fr": "Guernesey"
+        },
+        "native": "Guernsey",
+        "iso3": "GGY",
+        "phone": [44],
+        "continent": "EU",
+        "capital": "St. Peter Port",
+        "currency": ["GBP"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["St. Peter Port"],
+            "ar": ["سانت بيتر بورت"],
+            "fr": ["St. Peter Port"]
+        }
+    },
+    "GH": {
+        "name": {
+            "en": "Ghana",
+            "ar": "غانا",
+            "fr": "Ghana"
+        },
+        "native": "Ghana",
+        "iso3": "GHA",
+        "phone": [233],
+        "continent": "AF",
+        "capital": "Accra",
+        "currency": ["GHS"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Accra", "Kumasi", "Tamale", "Sekondi-Takoradi"],
+            "ar": ["أكرا", "كوماسي", "تامالي", "سيكوندي-تاكورادي"],
+            "fr": ["Accra", "Kumasi", "Tamale", "Sekondi-Takoradi"]
+        }
+    },
+    "GI": {
+        "name": {
+            "en": "Gibraltar",
+            "ar": "جبل طارق",
+            "fr": "Gibraltar"
+        },
+        "native": "Gibraltar",
+        "iso3": "GIB",
+        "phone": [350],
+        "continent": "EU",
+        "capital": "Gibraltar",
+        "currency": ["GIP"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Gibraltar"],
+            "ar": ["جبل طارق"],
+            "fr": ["Gibraltar"]
+        }
+    },
+    "GL": {
+        "name": {
+            "en": "Greenland",
+            "ar": "جرينلاند",
+            "fr": "Groenland"
+        },
+        "native": "Kalaallit Nunaat",
+        "iso3": "GRL",
+        "phone": [299],
+        "continent": "NA",
+        "capital": "Nuuk",
+        "currency": ["DKK"],
+        "languages": ["kl", "da"],
+        "cities": {
+            "en": ["Nuuk", "Sisimiut", "Ilulissat", "Qaqortoq"],
+            "ar": ["نواك", "سيسيميوت", "إيلوليسات", "كاقورط"],
+            "fr": ["Nuuk", "Sisimiut", "Ilulissat", "Qaqortoq"]
+        }
+    },
+    "GM": {
+        "name": {
+            "en": "Gambia",
+            "ar": "غامبيا",
+            "fr": "Gambie"
+        },
+        "native": "The Gambia",
+        "iso3": "GMB",
+        "phone": [220],
+        "continent": "AF",
+        "capital": "Banjul",
+        "currency": ["GMD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Banjul", "Serekunda", "Brikama"],
+            "ar": ["بانجول", "سيركوندا", "بريكاما"],
+            "fr": ["Banjul", "Serekunda", "Brikama"]
+        }
+    },
+    "GN": {
+        "name": {
+            "en": "Guinea",
+            "ar": "غينيا",
+            "fr": "Guinée"
+        },
+        "native": "Guinée",
+        "iso3": "GIN",
+        "phone": [224],
+        "continent": "AF",
+        "capital": "Conakry",
+        "currency": ["GNF"],
+        "languages": ["fr", "ff", "gn"],
+        "cities": {
+            "en": ["Conakry", "Nzérékoré", "Kankan", "Labé", "Kindia"],
+            "ar": ["كوناكري", "نذيريكوري", "كانكان", "لابي", "كينديا"],
+            "fr": ["Conakry", "Nzérékoré", "Kankan", "Labé", "Kindia"]
+        }
+    },
+    "GP": {
+        "name": {
+            "en": "Guadeloupe",
+            "ar": "جوادلوب",
+            "fr": "Guadeloupe"
+        },
+        "native": "Guadeloupe",
+        "iso3": "GLP",
+        "phone": [590],
+        "continent": "NA",
+        "capital": "Basse-Terre",
+        "currency": ["EUR"],
+        "languages": ["fr"],
+        "cities": {
+            "en": ["Basse-Terre", "Pointe-à-Pitre", "Les Abymes"],
+            "ar": ["باس-تير", "بوانت-أ-بيتري", "ليز أبيم"],
+            "fr": ["Basse-Terre", "Pointe-à-Pitre", "Les Abymes"]
+        }
+    },
+    "GQ": {
+        "name": {
+            "en": "Equatorial Guinea",
+            "ar": "غينيا الاستوائية",
+            "fr": "Guinée équatoriale"
+        },
+        "native": "Guinea Ecuatorial",
+        "iso3": "GNQ",
+        "phone": [240],
+        "continent": "AF",
+        "capital": "Malabo",
+        "currency": ["XAF"],
+        "languages": ["es", "fr", "pt"],
+        "cities": {
+            "en": ["Malabo", "Bata", "Ebebiyin", "Mongomo"],
+            "ar": ["مالابو", "باتا", "إبيبيين", "مونغومو"],
+            "fr": ["Malabo", "Bata", "Ebebiyin", "Mongomo"]
+        }
+    },
+    "GR": {
+        "name": {
+            "en": "Greece",
+            "ar": "اليونان",
+            "fr": "Grèce"
+        },
+        "native": "Ελλάδα",
+        "iso3": "GRC",
+        "phone": [30],
+        "continent": "EU",
+        "capital": "Athens",
+        "currency": ["EUR"],
+        "languages": ["el"],
+        "cities": {
+            "en": ["Athens", "Thessaloniki", "Patras", "Heraklion", "Larissa"],
+            "ar": ["أثينا", "سالونيك", "باتراس", "هيراكليون", "لاريسا"],
+            "fr": ["Athènes", "Salonique", "Patras", "Héraklion", "Larissa"]
+        }
+    },
+    "GT": {
+        "name": {
+            "en": "Guatemala",
+            "ar": "غواتيمالا",
+            "fr": "Guatemala"
+        },
+        "native": "Guatemala",
+        "iso3": "GTM",
+        "phone": [502],
+        "continent": "NA",
+        "capital": "Guatemala City",
+        "currency": ["GTQ"],
+        "languages": ["es"],
+        "cities": {
+            "en": ["Guatemala City", "Quetzaltenango", "Escuintla", "Antigua Guatemala"],
+            "ar": ["مدينة غواتيمالا", "كيتزالتينانغو", "إسكوينتلا", "أنتيغوا غواتيمالا"],
+            "fr": ["Guatemala", "Quetzaltenango", "Escuintla", "Antigua Guatemala"]
+        }
+    },
+    "GU": {
+        "name": {
+            "en": "Guam",
+            "ar": "غوام",
+            "fr": "Guam"
+        },
+        "native": "Guam",
+        "iso3": "GUM",
+        "phone": [1671],
+        "continent": "OC",
+        "capital": "Hagåtña",
+        "currency": ["USD"],
+        "languages": ["en", "ch"],
+        "cities": {
+            "en": ["Hagåtña", "Dededo", "Tamuning", "Yigo"],
+            "ar": ["هاغاتنيا", "ديديدو", "تامونينغ", "ييجو"],
+            "fr": ["Hagåtña", "Dededo", "Tamuning", "Yigo"]
+        }
+    },
+    "GW": {
+        "name": {
+            "en": "Guinea-Bissau",
+            "ar": "غينيا بيساو",
+            "fr": "Guinée-Bissau"
+        },
+        "native": "Guiné-Bissau",
+        "iso3": "GNB",
+        "phone": [245],
+        "continent": "AF",
+        "capital": "Bissau",
+        "currency": ["XOF"],
+        "languages": ["pt"],
+        "cities": {
+            "en": ["Bissau", "Bafatá", "Gabu", "Bissorã"],
+            "ar": ["بيساو", "بافاتا", "غابو", "بيسورا"],
+            "fr": ["Bissau", "Bafatá", "Gabu", "Bissorã"]
+        }
+    },
+    "GY": {
+        "name": {
+            "en": "Guyana",
+            "ar": "غيانا",
+            "fr": "Guyana"
+        },
+        "native": "Guyana",
+        "iso3": "GUY",
+        "phone": [592],
+        "continent": "SA",
+        "capital": "Georgetown",
+        "currency": ["GYD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Georgetown", "Linden", "New Amsterdam"],
+            "ar": ["جورجتاون", "ليندن", "نيو أمستردام"],
+            "fr": ["Georgetown", "Linden", "New Amsterdam"]
+        }
+    },
+    "HK": {
+        "name": {
+            "en": "Hong Kong",
+            "ar": "هونغ كونغ",
+            "fr": "Hong Kong"
+        },
+        "native": "香港",
+        "iso3": "HKG",
+        "phone": [852],
+        "continent": "AS",
+        "capital": "Hong Kong",
+        "currency": ["HKD"],
+        "languages": ["zh", "en"],
+        "cities": {
+            "en": ["Hong Kong", "Kowloon", "New Territories"],
+            "ar": ["هونغ كونغ", "كولون", "الأقاليم الجديدة"],
+            "fr": ["Hong Kong", "Kowloon", "New Territories"]
+        }
+    },
+    "HM": {
+        "name": {
+            "en": "Heard Island and McDonald Islands",
+            "ar": "جزيرة هيرد وجزر ماكدونالد",
+            "fr": "Îles Heard et McDonald"
+        },
+        "native": "Heard Island and McDonald Islands",
+        "iso3": "HMD",
+        "phone": [0],
+        "continent": "AN",
+        "capital": "",
+        "currency": ["AUD"],
+        "languages": ["en"],
+        "cities": {
+            "en": [],
+            "ar": [],
+            "fr": []
+        }
+    },
+    "HN": {
+        "name": {
+            "en": "Honduras",
+            "ar": "هندوراس",
+            "fr": "Honduras"
+        },
+        "native": "Honduras",
+        "iso3": "HND",
+        "phone": [504],
+        "continent": "NA",
+        "capital": "Tegucigalpa",
+        "currency": ["HNL"],
+        "languages": ["es"],
+        "cities": {
+            "en": ["Tegucigalpa", "San Pedro Sula", "Choloma", "La Ceiba"],
+            "ar": ["تيغوسيجالبا", "سان بيدرو سولا", "تشولما", "لا سيبا"],
+            "fr": ["Tegucigalpa", "San Pedro Sula", "Choloma", "La Ceiba"]
+        }
+    },
+    "HR": {
+        "name": {
+            "en": "Croatia",
+            "ar": "كرواتيا",
+            "fr": "Croatie"
+        },
+        "native": "Hrvatska",
+        "iso3": "HRV",
+        "phone": [385],
+        "continent": "EU",
+        "capital": "Zagreb",
+        "currency": ["HRK"],
+        "languages": ["hr"],
+        "cities": {
+            "en": ["Zagreb", "Split", "Rijeka", "Osijek", "Zadar"],
+            "ar": ["زغرب", "سبليت", "رييكا", "أوسييك", "زادار"],
+            "fr": ["Zagreb", "Split", "Rijeka", "Osijek", "Zadar"]
+        }
+    },
+    "HT": {
+        "name": {
+            "en": "Haiti",
+            "ar": "هايتي",
+            "fr": "Haïti"
+        },
+        "native": "Haïti",
+        "iso3": "HTI",
+        "phone": [509],
+        "continent": "NA",
+        "capital": "Port-au-Prince",
+        "currency": ["HTG", "USD"],
+        "languages": ["fr", "ht"],
+        "cities": {
+            "en": ["Port-au-Prince", "Cap-Haïtien", "Gonaïves", "Les Cayes"],
+            "ar": ["بورت أو برنس", "كاب هايتيان", "غوناف", "ليه كايز"],
+            "fr": ["Port-au-Prince", "Cap-Haïtien", "Gonaïves", "Les Cayes"]
+        }
+    },
+    "HU": {
+        "name": {
+            "en": "Hungary",
+            "ar": "المجر",
+            "fr": "Hongrie"
+        },
+        "native": "Magyarország",
+        "iso3": "HUN",
+        "phone": [36],
+        "continent": "EU",
+        "capital": "Budapest",
+        "currency": ["HUF"],
+        "languages": ["hu"],
+        "cities": {
+            "en": ["Budapest", "Debrecen", "Szeged", "Miskolc", "Pécs"],
+            "ar": ["بودابست", "ديبريسين", "سيغيد", "ميسكولك", "بيتش"],
+            "fr": ["Budapest", "Debrecen", "Szeged", "Miskolc", "Pécs"]
+        }
+    },
+    "ID": {
+        "name": {
+            "en": "Indonesia",
+            "ar": "إندونيسيا",
+            "fr": "Indonésie"
+        },
+        "native": "Indonesia",
+        "iso3": "IDN",
+        "phone": [62],
+        "continent": "AS",
+        "capital": "Jakarta",
+        "currency": ["IDR"],
+        "languages": ["id"],
+        "cities": {
+            "en": ["Jakarta", "Surabaya", "Bandung", "Medan", "Bekasi", "Semarang"],
+            "ar": ["جاكرتا", "سورابايا", "باندونغ", "ميدان", "بيكاسي", "سيمارانغ"],
+            "fr": ["Jakarta", "Surabaya", "Bandung", "Medan", "Bekasi", "Semarang"]
+        }
+    },
+    "IE": {
+        "name": {
+            "en": "Ireland",
+            "ar": "أيرلندا",
+            "fr": "Irlande"
+        },
+        "native": "Éire",
+        "iso3": "IRL",
+        "phone": [353],
+        "continent": "EU",
+        "capital": "Dublin",
+        "currency": ["EUR"],
+        "languages": ["ga", "en"],
+        "cities": {
+            "en": ["Dublin", "Cork", "Limerick", "Galway", "Waterford"],
+            "ar": ["دبلن", "كورك", "ليمريك", "غالوي", "واترفورد"],
+            "fr": ["Dublin", "Cork", "Limerick", "Galway", "Waterford"]
+        }
+    },
+    "IL": {
+        "name": {
+            "en": "Israel",
+            "ar": "إسرائيل",
+            "fr": "Israël"
+        },
+        "native": "יִשְׂרָאֵל",
+        "iso3": "ISR",
+        "phone": [972],
+        "continent": "AS",
+        "capital": "Jerusalem",
+        "currency": ["ILS"],
+        "languages": ["he", "ar"],
+        "cities": {
+            "en": ["Jerusalem", "Tel Aviv", "Haifa", "Rishon LeZion", "Petah Tikva"],
+            "ar": ["القدس", "تل أبيب", "حيفا", "ريشون لتسيون", "بتاح تكفا"],
+            "fr": ["Jérusalem", "Tel Aviv", "Haïfa", "Rishon LeZion", "Petah Tikva"]
+        }
+    },
+    "IM": {
+        "name": {
+            "en": "Isle of Man",
+            "ar": "جزيرة مان",
+            "fr": "Île de Man"
+        },
+        "native": "Isle of Man",
+        "iso3": "IMN",
+        "phone": [44],
+        "continent": "EU",
+        "capital": "Douglas",
+        "currency": ["GBP"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Douglas", "Ramsey", "Peel", "Castletown"],
+            "ar": ["دوغلاس", "رامزي", "بيل", "كاسلتاون"],
+            "fr": ["Douglas", "Ramsey", "Peel", "Castletown"]
+        }
+    },
+    "IN": {
+        "name": {
+            "en": "India",
+            "ar": "الهند",
+            "fr": "Inde"
+        },
+        "native": "भारत",
+        "iso3": "IND",
+        "phone": [91],
+        "continent": "AS",
+        "capital": "New Delhi",
+        "currency": ["INR"],
+        "languages": ["hi", "en"],
+        "cities": {
+            "en": ["New Delhi", "Mumbai", "Bangalore", "Hyderabad", "Ahmedabad", "Chennai", "Kolkata"],
+            "ar": ["نيودلهي", "مومباي", "بنغالور", "حيدر أباد", "أحمد أباد", "تشيناي", "كولكاتا"],
+            "fr": ["New Delhi", "Mumbai", "Bangalore", "Hyderabad", "Ahmedabad", "Chennai", "Kolkata"]
+        }
+    },
+    "IO": {
+        "name": {
+            "en": "British Indian Ocean Territory",
+            "ar": "إقليم المحيط الهندي البريطاني",
+            "fr": "Territoire britannique de l'océan Indien"
+        },
+        "native": "British Indian Ocean Territory",
+        "iso3": "IOT",
+        "phone": [246],
+        "continent": "AS",
+        "capital": "Diego Garcia",
+        "currency": ["USD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Diego Garcia"],
+            "ar": ["دييغو غارسيا"],
+            "fr": ["Diego Garcia"]
+        }
+    },
+    "IQ": {
+        "name": {
+            "en": "Iraq",
+            "ar": "العراق",
+            "fr": "Irak"
+        },
+        "native": "العراق",
+        "iso3": "IRQ",
+        "phone": [964],
+        "continent": "AS",
+        "capital": "Baghdad",
+        "currency": ["IQD"],
+        "languages": ["ar", "ku"],
+        "cities": {
+            "en": ["Baghdad", "Basra", "Mosul", "Erbil", "Najaf"],
+            "ar": ["بغداد", "البصرة", "الموصل", "أربيل", "النجف"],
+            "fr": ["Bagdad", "Bassorah", "Mossoul", "Erbil", "Najaf"]
+        }
+    },
+    "IR": {
+        "name": {
+            "en": "Iran",
+            "ar": "إيران",
+            "fr": "Iran"
+        },
+        "native": "ایران",
+        "iso3": "IRN",
+        "phone": [98],
+        "continent": "AS",
+        "capital": "Tehran",
+        "currency": ["IRR"],
+        "languages": ["fa"],
+        "cities": {
+            "en": ["Tehran", "Mashhad", "Isfahan", "Karaj", "Tabriz"],
+            "ar": ["طهران", "مشهد", "أصفهان", "كرج", "تبريز"],
+            "fr": ["Téhéran", "Machhad", "Ispahan", "Karaj", "Tabriz"]
+        }
+    },
+    "IS": {
+        "name": {
+            "en": "Iceland",
+            "ar": "آيسلندا",
+            "fr": "Islande"
+        },
+        "native": "Ísland",
+        "iso3": "ISL",
+        "phone": [354],
+        "continent": "EU",
+        "capital": "Reykjavik",
+        "currency": ["ISK"],
+        "languages": ["is"],
+        "cities": {
+            "en": ["Reykjavik", "Kopavogur", "Hafnarfjordur", "Akureyri"],
+            "ar": ["ريكيافيك", "كوبافوغور", "هافنارفجوردور", "أكورييري"],
+            "fr": ["Reykjavik", "Kopavogur", "Hafnarfjordur", "Akureyri"]
+        }
+    },
+    "IT": {
+        "name": {
+            "en": "Italy",
+            "ar": "إيطاليا",
+            "fr": "Italie"
+        },
+        "native": "Italia",
+        "iso3": "ITA",
+        "phone": [39],
+        "continent": "EU",
+        "capital": "Rome",
+        "currency": ["EUR"],
+        "languages": ["it"],
+        "cities": {
+            "en": ["Rome", "Milan", "Naples", "Turin", "Palermo", "Genoa", "Bologna"],
+            "ar": ["روما", "ميلانو", "نابولي", "تورينو", "باليرمو", "جنوة", "بولونيا"],
+            "fr": ["Rome", "Milan", "Naples", "Turin", "Palerme", "Gênes", "Bologne"]
+        }
+    },
+    "JE": {
+        "name": {
+            "en": "Jersey",
+            "ar": "جيرزي",
+            "fr": "Jersey"
+        },
+        "native": "Jersey",
+        "iso3": "JEY",
+        "phone": [44],
+        "continent": "EU",
+        "capital": "Saint Helier",
+        "currency": ["GBP"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Saint Helier"],
+            "ar": ["سانت هيليير"],
+            "fr": ["Saint Helier"]
+        }
+    },
+    "JM": {
+        "name": {
+            "en": "Jamaica",
+            "ar": "جامايكا",
+            "fr": "Jamaïque"
+        },
+        "native": "Jamaica",
+        "iso3": "JAM",
+        "phone": [1876],
+        "continent": "NA",
+        "capital": "Kingston",
+        "currency": ["JMD"],
+        "languages": ["en"],
+        "cities": {
+            "en": ["Kingston", "Montego Bay", "Spanish Town", "Portmore"],
+            "ar": ["كينغستون", "مونتيغو باي", "سبانيش تاون", "بورت مور"],
+            "fr": ["Kingston", "Montego Bay", "Spanish Town", "Portmore"]
+        }
+    },
+    "JO": {
+        "name": {
+            "en": "Jordan",
+            "ar": "الأردن",
+            "fr": "Jordanie"
+        },
+        "native": "الأردن",
+        "iso3": "JOR",
+        "phone": [962],
+        "continent": "AS",
+        "capital": "Amman",
+        "currency": ["JOD"],
+        "languages": ["ar"],
+        "cities": {
+            "en": ["Amman", "Zarqa", "Irbid", "Russeifa", "Aqaba"],
+            "ar": ["عمان", "الزرقاء", "إربد", "الرسيفه", "العقبة"],
+            "fr": ["Amman", "Zarqa", "Irbid", "Russeifa", "Aqaba"]
+        }
+    },
+    "JP": {
+        "name": {
+            "en": "Japan",
+            "ar": "اليابان",
+            "fr": "Japon"
+        },
+        "native": "日本",
+        "iso3": "JPN",
+        "phone": [81],
+        "continent": "AS",
+        "capital": "Tokyo",
+        "currency": ["JPY"],
+        "languages": ["ja"],
+        "cities": {
+            "en": ["Tokyo", "Osaka", "Nagoya", "Sapporo", "Fukuoka", "Kobe", "Kyoto"],
+            "ar": ["طوكيو", "أوساكا", "ناغويا", "سابورو", "فوكوكا", "كوب", "كيوتو"],
+            "fr": ["Tokyo", "Osaka", "Nagoya", "Sapporo", "Fukuoka", "Kobe", "Kyoto"]
+        }
+    },
+    "KE": {
+        "name": {"en": "Kenya", "ar": "كينيا", "fr": "Kenya"},
+        "native": "Kenya",
+        "iso3": "KEN",
+        "phone": [254],
+        "continent": "AF",
+        "capital": "Nairobi",
+        "currency": ["KES"],
+        "languages": ["en","sw"],
+        "cities": {
+        "en": ["Nairobi", "Mombasa", "Kisumu", "Nakuru", "Eldoret"],
+        "ar": ["نيروبي", "مومباسا", "كيسومو", "ناكورو", "إلدوريت"],
+        "fr": ["Nairobi", "Mombasa", "Kisumu", "Nakuru", "Eldoret"]
+        }
+    },
+    "KG": {
+        "name": {"en": "Kyrgyzstan", "ar": "قيرغيزستان", "fr": "Kirghizistan"},
+        "native": "Кыргызстан",
+        "iso3": "KGZ",
+        "phone": [996],
+        "continent": "AS",
+        "capital": "Bishkek",
+        "currency": ["KGS"],
+        "languages": ["ky","ru"],
+        "cities": {
+        "en": ["Bishkek", "Osh", "Jalal-Abad", "Karakol"],
+        "ar": ["بيشكيك", "أوش", "جلال أباد", "كاراكول"],
+        "fr": ["Bichkek", "Osh", "Djalal-Abad", "Karakol"]
+        }
+    },
+    "KH": {
+        "name": {"en": "Cambodia", "ar": "كمبوديا", "fr": "Cambodge"},
+        "native": "Kâmpŭchéa",
+        "iso3": "KHM",
+        "phone": [855],
+        "continent": "AS",
+        "capital": "Phnom Penh",
+        "currency": ["KHR"],
+        "languages": ["km"],
+        "cities": {
+            "en": ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville"],
+            "ar": ["بنوم بنه", "سييم ريب", "باتامبانغ", "سيهانوكفيل"],
+            "fr": ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville"]
+        }
+    },
+    "KI": {
+        "name": {"en": "Kiribati", "ar": "كيريباتي", "fr": "Kiribati"},
+        "native": "Kiribati",
+        "iso3": "KIR",
+        "phone": [686],
+        "continent": "OC",
+        "capital": "Tarawa",
+        "currency": ["AUD"],
+        "languages": ["en","gil"],
+        "cities": {
+        "en": ["Tarawa", "Kiritimati", "Abemama", "Butaritari"],
+        "ar": ["تاراوا", "كيريتيماسي", "أبيما", "بوتاريتاري"],
+        "fr": ["Tarawa", "Kiritimati", "Abemama", "Butaritari"]
+        }
+    },
+    "KM": {
+        "name": {"en": "Comoros", "ar": "جزر القمر", "fr": "Comores"},
+        "native": "Komori",
+        "iso3": "COM",
+        "phone": [269],
+        "continent": "AF",
+        "capital": "Moroni",
+        "currency": ["KMF"],
+        "languages": ["ar","fr","sw"],
+        "cities": {
+        "en": ["Moroni", "Mutsamudu", "Fomboni"],
+        "ar": ["موروني", "موتسامودو", "فومبوني"],
+        "fr": ["Moroni", "Mutsamudu", "Fomboni"]
+        }
+    },
+    "KN": {
+        "name": {"en": "Saint Kitts and Nevis", "ar": "سانت كيتس ونيفيس", "fr": "Saint-Christophe-et-Niévès"},
+        "native": "Saint Kitts and Nevis",
+        "iso3": "KNA",
+        "phone": [1869],
+        "continent": "NA",
+        "capital": "Basseterre",
+        "currency": ["XCD"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Basseterre", "Charlestown", "Sandy Point"],
+        "ar": ["باسيتير", "تشارلستون", "ساندي بوينت"],
+        "fr": ["Basseterre", "Charlestown", "Sandy Point"]
+        }
+    },
+    "KP": {
+        "name": {"en": "North Korea", "ar": "كوريا الشمالية", "fr": "Corée du Nord"},
+        "native": "조선민주주의인민공화국",
+        "iso3": "PRK",
+        "phone": [850],
+        "continent": "AS",
+        "capital": "Pyongyang",
+        "currency": ["KPW"],
+        "languages": ["ko"],
+        "cities": {
+        "en": ["Pyongyang", "Hamhung", "Chongjin", "Nampo"],
+        "ar": ["بيونغ يانغ", "هامهونغ", "تشونغجين", "نامبو"],
+        "fr": ["Pyongyang", "Hamhung", "Chongjin", "Nampo"]
+        }
+    },
+    "KR": {
+        "name": {"en": "South Korea", "ar": "كوريا الجنوبية", "fr": "Corée du Sud"},
+        "native": "대한민국",
+        "iso3": "KOR",
+        "phone": [82],
+        "continent": "AS",
+        "capital": "Seoul",
+        "currency": ["KRW"],
+        "languages": ["ko"],
+        "cities": {
+        "en": ["Seoul", "Busan", "Incheon", "Daegu", "Daejeon"],
+        "ar": ["سيول", "بوسان", "إنشيون", "دايغو", "دايجون"],
+        "fr": ["Séoul", "Busan", "Incheon", "Daegu", "Daejeon"]
+        }
+    },
+    "KW": {
+        "name": {"en": "Kuwait", "ar": "الكويت", "fr": "Koweït"},
+        "native": "الكويت",
+        "iso3": "KWT",
+        "phone": [965],
+        "continent": "AS",
+        "capital": "Kuwait City",
+        "currency": ["KWD"],
+        "languages": ["ar"],
+        "cities": {
+        "en": ["Kuwait City", "Al Ahmadi", "Hawalli", "Salmiya"],
+        "ar": ["مدينة الكويت", "الأحمدي", "حولي", "السالمية"],
+        "fr": ["Kuwait City", "Al Ahmadi", "Hawalli", "Salmiya"]
+        }
+    },
+    "KY": {
+        "name": {"en": "Cayman Islands", "ar": "جزر كايمان", "fr": "Îles Caïmans"},
+        "native": "Cayman Islands",
+        "iso3": "CYM",
+        "phone": [1345],
+        "continent": "NA",
+        "capital": "George Town",
+        "currency": ["KYD"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["George Town", "West Bay", "Bodden Town"],
+        "ar": ["جورج تاون", "ويست باي", "بودن تاون"],
+        "fr": ["George Town", "West Bay", "Bodden Town"]
+        }
+    },
+    "KZ": {
+        "name": {"en": "Kazakhstan", "ar": "كازاخستان", "fr": "Kazakhstan"},
+        "native": "Қазақстан",
+        "iso3": "KAZ",
+        "phone": [7],
+        "continent": "AS",
+        "capital": "Nur-Sultan",
+        "currency": ["KZT"],
+        "languages": ["kk","ru"],
+        "cities": {
+        "en": ["Nur-Sultan", "Almaty", "Shymkent", "Karaganda"],
+        "ar": ["نور سلطان", "ألما آتا", "شيمكنت", "قارا قندا"],
+        "fr": ["Noursoultan", "Almaty", "Chymkent", "Karaganda"]
+        }
+    },
+    "LA": {
+        "name": {"en": "Laos", "ar": "لاوس", "fr": "Laos"},
+        "native": "ປະເທດລາວ",
+        "iso3": "LAO",
+        "phone": [856],
+        "continent": "AS",
+        "capital": "Vientiane",
+        "currency": ["LAK"],
+        "languages": ["lo"],
+        "cities": {
+        "en": ["Vientiane", "Luang Prabang", "Pakse", "Savannakhet"],
+        "ar": ["فيينتيان", "لوانغ برابانغ", "باكس", "سافاناكيت"],
+        "fr": ["Vientiane", "Luang Prabang", "Pakse", "Savannakhet"]
+        }
+    },
+    "LB": {
+        "name": {"en": "Lebanon", "ar": "لبنان", "fr": "Liban"},
+        "native": "لبنان",
+        "iso3": "LBN",
+        "phone": [961],
+        "continent": "AS",
+        "capital": "Beirut",
+        "currency": ["LBP"],
+        "languages": ["ar", "fr"],
+        "cities": {
+        "en": ["Beirut", "Tripoli", "Sidon", "Tyre"],
+        "ar": ["بيروت", "طرابلس", "صيدا", "صور"],
+        "fr": ["Beyrouth", "Tripoli", "Sidon", "Tyr"]
+        }
+    },
+    "LC": {
+        "name": {"en": "Saint Lucia", "ar": "سانت لوسيا", "fr": "Sainte-Lucie"},
+        "native": "Saint Lucia",
+        "iso3": "LCA",
+        "phone": [1758],
+        "continent": "NA",
+        "capital": "Castries",
+        "currency": ["XCD"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Castries", "Gros Islet", "Vieux Fort", "Soufrière"],
+        "ar": ["كاستريس", "غروس إيلت", "فيو فورت", "سوفريير"],
+        "fr": ["Castries", "Gros Islet", "Vieux Fort", "Soufrière"]
+        }
+    },
+    "LI": {
+        "name": {"en": "Liechtenstein", "ar": "ليختنشتاين", "fr": "Liechtenstein"},
+        "native": "Liechtenstein",
+        "iso3": "LIE",
+        "phone": [423],
+        "continent": "EU",
+        "capital": "Vaduz",
+        "currency": ["CHF"],
+        "languages": ["de"],
+        "cities": {
+        "en": ["Vaduz", "Schaan", "Balzers", "Eschen"],
+        "ar": ["فادوز", "شعان", "بالزرز", "إيشين"],
+        "fr": ["Vaduz", "Schaan", "Balzers", "Eschen"]
+        }
+    },
+    "LK": {
+        "name": {"en": "Sri Lanka", "ar": "سريلانكا", "fr": "Sri Lanka"},
+        "native": "ශ්‍රී ලංකා",
+        "iso3": "LKA",
+        "phone": [94],
+        "continent": "AS",
+        "capital": "Sri Jayawardenepura Kotte",
+        "currency": ["LKR"],
+        "languages": ["si", "ta"],
+        "cities": {
+        "en": ["Colombo", "Kandy", "Galle", "Jaffna"],
+        "ar": ["كولومبو", "كاندي", "غال", "جافنا"],
+        "fr": ["Colombo", "Kandy", "Galle", "Jaffna"]
+        }
+    },
+    "LR": {
+        "name": {"en": "Liberia", "ar": "ليبيريا", "fr": "Liberia"},
+        "native": "Liberia",
+        "iso3": "LBR",
+        "phone": [231],
+        "continent": "AF",
+        "capital": "Monrovia",
+        "currency": ["LRD"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Monrovia", "Gbarnga", "Buchanan", "Harper"],
+        "ar": ["مونروفيا", "غبانغا", "بوكوانا", "هاربر"],
+        "fr": ["Monrovia", "Gbarnga", "Buchanan", "Harper"]
+        }
+    },
+    "LS": {
+        "name": {"en": "Lesotho", "ar": "ليسوتو", "fr": "Lesotho"},
+        "native": "Lesotho",
+        "iso3": "LSO",
+        "phone": [266],
+        "continent": "AF",
+        "capital": "Maseru",
+        "currency": ["LSL", "ZAR"],
+        "languages": ["st", "en"],
+        "cities": {
+        "en": ["Maseru", "Teyateyaneng", "Mafeteng", "Mohale's Hoek"],
+        "ar": ["ماسيرو", "تياتيانيينغ", "مافيتنغ", "موهالي هوك"],
+        "fr": ["Maseru", "Teyateyaneng", "Mafeteng", "Mohale's Hoek"]
+        }
+    },
+    "LT": {
+        "name": {"en": "Lithuania", "ar": "ليتوانيا", "fr": "Lituanie"},
+        "native": "Lietuva",
+        "iso3": "LTU",
+        "phone": [370],
+        "continent": "EU",
+        "capital": "Vilnius",
+        "currency": ["EUR"],
+        "languages": ["lt"],
+        "cities": {
+        "en": ["Vilnius", "Kaunas", "Klaipėda", "Šiauliai"],
+        "ar": ["فيلنيوس", "كاوناس", "كلايبيدا", "شياولياي"],
+        "fr": ["Vilnius", "Kaunas", "Klaipėda", "Šiauliai"]
+        }
+    },
+    "LU": {
+        "name": {"en": "Luxembourg", "ar": "لوكسمبورغ", "fr": "Luxembourg"},
+        "native": "Lëtzebuerg",
+        "iso3": "LUX",
+        "phone": [352],
+        "continent": "EU",
+        "capital": "Luxembourg City",
+        "currency": ["EUR"],
+        "languages": ["lb", "fr", "de"],
+        "cities": {
+        "en": ["Luxembourg City", "Ettelbruck", "Ettelbruck", "Ettelbruck"],
+        "ar": ["مدينة لوكسمبورغ", "إيتلبروك", "إيتلبروك", "إيتلبروك"],
+        "fr": ["Ville de Luxembourg", "Ettelbruck", "Ettelbruck", "Ettelbruck"]
+        }
+    },
+    "LV": {
+        "name": {"en": "Latvia", "ar": "لاتفيا", "fr": "Lettonie"},
+        "native": "Latvija",
+        "iso3": "LVA",
+        "phone": [371],
+        "continent": "EU",
+        "capital": "Riga",
+        "currency": ["EUR"],
+        "languages": ["lv"],
+        "cities": {
+        "en": ["Riga", "Jurmala", "Liepāja", "Jelgava"],
+        "ar": ["ريغا", "يورملا", "ليبايا", "يلغافا"],
+        "fr": ["Riga", "Jurmala", "Liepāja", "Jelgava"]
+        }
+    },
+    "LY": {
+        "name": {"en": "Libya", "ar": "ليبيا", "fr": "Libye"},
+        "native": "ليبيا",
+        "iso3": "LBY",
+        "phone": [218],
+        "continent": "AF",
+        "capital": "Tripoli",
+        "currency": ["LYD"],
+        "languages": ["ar"],
+        "cities": {
+        "en": ["Tripoli", "Benghazi", "Misrata", "Zawiya"],
+        "ar": ["طرابلس", "بنغازي", "مصراتة", "زوارة"],
+        "fr": ["Tripoli", "Benghazi", "Misrata", "Zawiya"]
+        }
+    },
+    "MA": {
+        "name": {"en": "Morocco", "ar": "المغرب", "fr": "Maroc"},
+        "native": "المغرب",
+        "iso3": "MAR",
+        "phone": [212],
+        "continent": "AF",
+        "capital": "Rabat",
+        "currency": ["MAD"],
+        "languages": ["ar", "ber"],
+        "cities": {
+        "en": ["Rabat", "Casablanca", "Marrakech", "Fes"],
+        "ar": ["الرباط", "الدار البيضاء", "مراكش", "فاس"],
+        "fr": ["Rabat", "Casablanca", "Marrakech", "Fès"]
+        }
+    },
+    "MC": {
+        "name": {"en": "Monaco", "ar": "موناكو", "fr": "Monaco"},
+        "native": "Monaco",
+        "iso3": "MCO",
+        "phone": [377],
+        "continent": "EU",
+        "capital": "Monaco",
+        "currency": ["EUR"],
+        "languages": ["fr"],
+        "cities": {
+        "en": ["Monaco", "Monte Carlo", "La Condamine", "Moneghetti"],
+        "ar": ["موناكو", "مونت كارلو", "لا كوندامين", "مونيجيتي"],
+        "fr": ["Monaco", "Monte-Carlo", "La Condamine", "Moneghetti"]
+        }
+    },
+    "MD": {
+        "name": {"en": "Moldova", "ar": "مولدوفا", "fr": "Moldavie"},
+        "native": "Moldova",
+        "iso3": "MDA",
+        "phone": [373],
+        "continent": "EU",
+        "capital": "Chișinău",
+        "currency": ["MDL"],
+        "languages": ["ro"],
+        "cities": {
+        "en": ["Chișinău", "Bălți", "Bender", "Tighina"],
+        "ar": ["كيسيناو", "بالتي", "بندر", "تيغينا"],
+        "fr": ["Chișinău", "Bălți", "Bender", "Tighina"]
+        }
+    },
+    "ME": {
+        "name": {"en": "Montenegro", "ar": "الجبل الأسود", "fr": "Monténégro"},
+        "native": "Crna Gora",
+        "iso3": "MNE",
+        "phone": [382],
+        "continent": "EU",
+        "capital": "Podgorica",
+        "currency": ["EUR"],
+        "languages": ["sr"],
+        "cities": {
+        "en": ["Podgorica", "Nikšić", "Herceg Novi", "Bijelo Polje"],
+        "ar": ["بودغوريتسا", "نيكشيć", "هيرسيغ نوفى", "بييلو بولي"],
+        "fr": ["Podgorica", "Nikšić", "Herceg Novi", "Bijelo Polje"]
+        }
+    },
+    "MF": {
+        "name": {"en": "Saint Martin (French part)", "ar": "سانت مارتن (الجزء الفرنسي)", "fr": "Saint-Martin (partie française)"},
+        "native": "Saint-Martin (partie française)",
+        "iso3": "MAF",
+        "phone": [590],
+        "continent": "NA",
+        "capital": "Marigot",
+        "currency": ["EUR"],
+        "languages": ["fr"],
+        "cities": {
+        "en": ["Marigot", "Grand Case", "Orient Bay", "Philipsburg"],
+        "ar": ["ماريغو", "جراند كيس", "خليج أورينت", "فيلبسبرغ"],
+        "fr": ["Marigot", "Grand Case", "Orient Bay", "Philipsburg"]
+        }
+    },
+    "MG": {
+        "name": {"en": "Madagascar", "ar": "مدغشقر", "fr": "Madagascar"},
+        "native": "Madagasikara",
+        "iso3": "MDG",
+        "phone": [261],
+        "continent": "AF",
+        "capital": "Antananarivo",
+        "currency": ["MGA"],
+        "languages": ["mg", "fr"],
+        "cities": {
+        "en": ["Antananarivo", "Toamasina", "Antsirabe", "Mahajanga"],
+        "ar": ["أنتاناناريفو", "تواماسينا", "أنتسيرابي", "ماهجانغا"],
+        "fr": ["Antananarivo", "Toamasina", "Antsirabe", "Mahajanga"]
+        }
+    },
+    "MH": {
+        "name": {"en": "Marshall Islands", "ar": "جزر مارشال", "fr": "Îles Marshall"},
+        "native": "M̧ajeļ",
+        "iso3": "MHL",
+        "phone": [692],
+        "continent": "OC",
+        "capital": "Majuro",
+        "currency": ["USD"],
+        "languages": ["mh", "en"],
+        "cities": {
+        "en": ["Majuro", "Ebeye", "Jabor", "Wotje"],
+        "ar": ["ماجورو", "إبيي", "جابور", "واتجي"],
+        "fr": ["Majuro", "Ebeye", "Jabor", "Wotje"]
+        }
+    },
+    "MK": {
+        "name": {"en": "North Macedonia", "ar": "مقدونيا الشمالية", "fr": "Macédoine du Nord"},
+        "native": "Северна Македонија",
+        "iso3": "MKD",
+        "phone": [389],
+        "continent": "EU",
+        "capital": "Skopje",
+        "currency": ["MKD"],
+        "languages": ["mk"],
+        "cities": {
+        "en": ["Skopje", "Bitola", "Prilep", "Ohrid"],
+        "ar": ["سكوبيه", "بيتولا", "بريليب", "أوهريد"],
+        "fr": ["Skopje", "Bitola", "Prilep", "Ohrid"]
+        }
+    },
+    "ML": {
+        "name": {"en": "Mali", "ar": "مالي", "fr": "Mali"},
+        "native": "Mali",
+        "iso3": "MLI",
+        "phone": [223],
+        "continent": "AF",
+        "capital": "Bamako",
+        "currency": ["MGA"],
+        "languages": ["fr"],
+        "cities": {
+        "en": ["Bamako", "Ségou", "Mopti", "Kayes"],
+        "ar": ["باماكو", "سيغو", "موبتي", "كاييس"],
+        "fr": ["Bamako", "Ségou", "Mopti", "Kayes"]
+        }
+    },
+    "MM": {
+        "name": {"en": "Myanmar", "ar": "ميانمار", "fr": "Myanmar"},
+        "native": "မြန်မာ",
+        "iso3": "MMR",
+        "phone": [95],
+        "continent": "AS",
+        "capital": "Naypyidaw",
+        "currency": ["MMK"],
+        "languages": ["my"],
+        "cities": {
+        "en": ["Naypyidaw", "Yangon", "Mandalay", "Mawlamyine"],
+        "ar": ["نايبيداو", "يانغون", "ماندالاي", "ماولامييين"],
+        "fr": ["Naypyidaw", "Yangon", "Mandalay", "Mawlamyine"]
+        }
+    },
+    "MN": {
+        "name": {"en": "Mongolia", "ar": "منغوليا", "fr": "Mongolie"},
+        "native": "Монгол Улс",
+        "iso3": "MNG",
+        "phone": [976],
+        "continent": "AS",
+        "capital": "Ulaanbaatar",
+        "currency": ["MNT"],
+        "languages": ["mn"],
+        "cities": {
+        "en": ["Ulaanbaatar", "Erdenet", "Darkhan", "Choibalsan"],
+        "ar": ["اولان باتر", "إردينت", "دارخان", "تشويبالسان"],
+        "fr": ["Oulan-Bator", "Erdenet", "Darkhan", "Choibalsan"]
+        }
+    },
+    "MO": {
+        "name": {"en": "Macau", "ar": "ماكاو", "fr": "Macao"},
+        "native": "澳門",
+        "iso3": "MAC",
+        "phone": [853],
+        "continent": "AS",
+        "capital": "Macau",
+        "currency": ["MOP"],
+        "languages": ["zh", "pt"],
+        "cities": {
+        "en": ["Macau", "Taipa", "Coloane", "Cotai"],
+        "ar": ["ماكاو", "تايبا", "كولوان", "كوتاي"],
+        "fr": ["Macau", "Taipa", "Coloane", "Cotai"]
+        }
+    },
+    "MP": {
+        "name": {"en": "Northern Mariana Islands", "ar": "جزر ماريانا الشمالية", "fr": "Îles Mariannes du Nord"},
+        "native": "Northern Mariana Islands",
+        "iso3": "MNP",
+        "phone": [1],
+        "continent": "OC",
+        "capital": "Saipan",
+        "currency": ["USD"],
+        "languages": ["en", "ch"],
+        "cities": {
+        "en": ["Saipan", "Garapan", "San Vicente", "Kagman"],
+        "ar": ["سايبان", "جارابان", "سان فيسنتي", "كاجمان"],
+        "fr": ["Saipan", "Garapan", "San Vicente", "Kagman"]
+        }
+    },
+    "MQ": {
+        "name": {"en": "Martinique", "ar": "مارتينيك", "fr": "Martinique"},
+        "native": "Martinique",
+        "iso3": "MTQ",
+        "phone": [596],
+        "continent": "NA",
+        "capital": "Fort-de-France",
+        "currency": ["EUR"],
+        "languages": ["fr"],
+        "cities": {
+        "en": ["Fort-de-France", "Le Lamentin", "Le Robert", "Le Marin"],
+        "ar": ["فورت دو فرانس", "لامانتين", "روبرت", "مارين"],
+        "fr": ["Fort-de-France", "Le Lamentin", "Le Robert", "Le Marin"]
+        }
+    },
+    "MR": {
+        "name": {"en": "Mauritania", "ar": "موريتانيا", "fr": "Mauritanie"},
+        "native": "موريتانيا",
+        "iso3": "MRT",
+        "phone": [222],
+        "continent": "AF",
+        "capital": "Nouakchott",
+        "currency": ["MRU"],
+        "languages": ["ar"],
+        "cities": {
+        "en": ["Nouakchott", "Nouadhibou", "Rosso", "Atar"],
+        "ar": ["نواكشوط", "نواذيبو", "روسو", "أطار"],
+        "fr": ["Nouakchott", "Nouadhibou", "Rosso", "Atar"]
+        }
+    },
+    "MS": {
+        "name": {"en": "Montserrat", "ar": "مونتسيرات", "fr": "Montserrat"},
+        "native": "Montserrat",
+        "iso3": "MSR",
+        "phone": [1],
+        "continent": "NA",
+        "capital": "Plymouth",
+        "currency": ["XCD"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Plymouth", "Brades", "Little Bay", "Woodlands"],
+        "ar": ["بليموث", "براديس", "ليتل باي", "وودلاندز"],
+        "fr": ["Plymouth", "Brades", "Little Bay", "Woodlands"]
+        }
+    },
+    "MT": {
+        "name": {"en": "Malta", "ar": "مالطا", "fr": "Malte"},
+        "native": "Malta",
+        "iso3": "MLT",
+        "phone": [356],
+        "continent": "EU",
+        "capital": "Valletta",
+        "currency": ["EUR"],
+        "languages": ["mt", "en"],
+        "cities": {
+        "en": ["Valletta", "Birkirkara", "Mdina", "Sliema"],
+        "ar": ["فاليتا", "بيركيركارا", "مدينا", "سليمة"],
+        "fr": ["La Valette", "Birkirkara", "Mdina", "Sliema"]
+        }
+    },
+    "MU": {
+        "name": {"en": "Mauritius", "ar": "موريشيوس", "fr": "Maurice"},
+        "native": "Maurice",
+        "iso3": "MUS",
+        "phone": [230],
+        "continent": "AF",
+        "capital": "Port Louis",
+        "currency": ["MUR"],
+        "languages": ["en", "fr"],
+        "cities": {
+        "en": ["Port Louis", "Beau Bassin-Rose Hill", "Vacoas-Phoenix", "Curepipe"],
+        "ar": ["بورت لويس", "بو باسين-روز هيل", "فاكوا-فونيكس", "كيربيبي"],
+        "fr": ["Port Louis", "Beau Bassin-Rose Hill", "Vacoas-Phoenix", "Curepipe"]
+        }
+    },
+    "MV": {
+        "name": {"en": "Maldives", "ar": "المالديف", "fr": "Maldives"},
+        "native": "ދިވެހިބަސް",
+        "iso3": "MDV",
+        "phone": [960],
+        "continent": "AS",
+        "capital": "Malé",
+        "currency": ["MVR"],
+        "languages": ["dv"],
+        "cities": {
+        "en": ["Malé", "Addu City", "Fuvahmulah", "Kulhudhuffushi"],
+        "ar": ["ماليه", "أدو سيتي", "فوهمله", "كولهودهوفيشي"],
+        "fr": ["Malé", "Addu City", "Fuvahmulah", "Kulhudhuffushi"]
+        }
+    },
+    "MW": {
+        "name": {"en": "Malawi", "ar": "مالاوي", "fr": "Malawi"},
+        "native": "Malawi",
+        "iso3": "MWI",
+        "phone": [265],
+        "continent": "AF",
+        "capital": "Lilongwe",
+        "currency": ["MWK"],
+        "languages": ["en", "ny"],
+        "cities": {
+        "en": ["Lilongwe", "Blantyre", "Mzuzu", "Zomba"],
+        "ar": ["ليلونغوي", "بلانتير", "موزوزو", "زومبا"],
+        "fr": ["Lilongwe", "Blantyre", "Mzuzu", "Zomba"]
+        }
+    },
+    "MX": {
+        "name": {"en": "Mexico", "ar": "المكسيك", "fr": "Mexique"},
+        "native": "México",
+        "iso3": "MEX",
+        "phone": [52],
+        "continent": "NA",
+        "capital": "Mexico City",
+        "currency": ["MXN"],
+        "languages": ["es"],
+        "cities": {
+        "en": ["Mexico City", "Guadalajara", "Monterrey", "Cancún"],
+        "ar": ["مدينة مكسيكو", "غوادالاخارا", "مونتيري", "كانكون"],
+        "fr": ["Mexico", "Guadalajara", "Monterrey", "Cancún"]
+        }
+    },
+    "MY": {
+        "name": {"en": "Malaysia", "ar": "ماليزيا", "fr": "Malaisie"},
+        "native": "Malaysia",
+        "iso3": "MYS",
+        "phone": [60],
+        "continent": "AS",
+        "capital": "Kuala Lumpur",
+        "currency": ["MYR"],
+        "languages": ["ms"],
+        "cities": {
+        "en": ["Kuala Lumpur", "George Town", "Johor Bahru", "Ipoh"],
+        "ar": ["كوالالمبور", "جورج تاون", "جوهور باهرو", "إيبوه"],
+        "fr": ["Kuala Lumpur", "George Town", "Johor Bahru", "Ipoh"]
+        }
+    },
+    "MZ": {
+        "name": {"en": "Mozambique", "ar": "موزمبيق", "fr": "Mozambique"},
+        "native": "Moçambique",
+        "iso3": "MOZ",
+        "phone": [258],
+        "continent": "AF",
+        "capital": "Maputo",
+        "currency": ["MZN"],
+        "languages": ["pt"],
+        "cities": {
+        "en": ["Maputo", "Beira", "Nampula", "Chimoio"],
+        "ar": ["مابوتو", "بيرا", "نامبولا", "شيمويو"],
+        "fr": ["Maputo", "Beira", "Nampula", "Chimoio"]
+        }
+    },
+    "NA": {
+        "name": {"en": "Namibia", "ar": "ناميبيا", "fr": "Namibie"},
+        "native": "Namibië",
+        "iso3": "NAM",
+        "phone": [264],
+        "continent": "AF",
+        "capital": "Windhoek",
+        "currency": ["NAD"],
+        "languages": ["en", "af"],
+        "cities": {
+        "en": ["Windhoek", "Swakopmund", "Walvis Bay", "Rehoboth"],
+        "ar": ["ويندهوك", "سواكوبموند", "والفيس باي", "ريهوبوث"],
+        "fr": ["Windhoek", "Swakopmund", "Walvis Bay", "Rehoboth"]
+        }
+    },
+    "NC": {
+        "name": {"en": "New Caledonia", "ar": "كاليدونيا الجديدة", "fr": "Nouvelle-Calédonie"},
+        "native": "Nouvelle-Calédonie",
+        "iso3": "NCL",
+        "phone": [687],
+        "continent": "OC",
+        "capital": "Nouméa",
+        "currency": ["XPF"],
+        "languages": ["fr"],
+        "cities": {
+        "en": ["Nouméa", "Dumbéa", "Mont-Dore", "Païta"],
+        "ar": ["نومييا", "دومبيا", "مونت دور", "بايتا"],
+        "fr": ["Nouméa", "Dumbéa", "Mont-Dore", "Païta"]
+        }
+    },
+    "NE": {
+        "name": {"en": "Niger", "ar": "النيجر", "fr": "Niger"},
+        "native": "Niger",
+        "iso3": "NER",
+        "phone": [227],
+        "continent": "AF",
+        "capital": "Niamey",
+        "currency": ["NGN"],
+        "languages": ["fr"],
+        "cities": {
+        "en": ["Niamey", "Zinder", "Maradi", "Agadez"],
+        "ar": ["نيامي", "زيندر", "مراي", "أغاديز"],
+        "fr": ["Niamey", "Zinder", "Maradi", "Agadez"]
+        }
+    },
+    "NF": {
+        "name": {"en": "Norfolk Island", "ar": "جزيرة نورفولك", "fr": "Île Norfolk"},
+        "native": "Norfolk Island",
+        "iso3": "NFK",
+        "phone": [672],
+        "continent": "OC",
+        "capital": "Kingston",
+        "currency": ["AUD"],
+        "languages": ["en", "nor"],
+        "cities": {
+        "en": ["Kingston", "Burnt Pine", "Cascade", "Longridge"],
+        "ar": ["كينغستون", "برنت باين", "كاسكيد", "لونغريدج"],
+        "fr": ["Kingston", "Burnt Pine", "Cascade", "Longridge"]
+        }
+    },
+    "NG": {
+        "name": {"en": "Nigeria", "ar": "نيجيريا", "fr": "Nigéria"},
+        "native": "Nigeria",
+        "iso3": "NGA",
+        "phone": [234],
+        "continent": "AF",
+        "capital": "Abuja",
+        "currency": ["NGN"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Abuja", "Lagos", "Kano", "Ibadan"],
+        "ar": ["أبوجا", "لاغوس", "كانو", "إيبادان"],
+        "fr": ["Abuja", "Lagos", "Kano", "Ibadan"]
+        }
+    },
+    "NI": {
+        "name": {"en": "Nicaragua", "ar": "نيكاراغوا", "fr": "Nicaragua"},
+        "native": "Nicaragua",
+        "iso3": "NIC",
+        "phone": [505],
+        "continent": "NA",
+        "capital": "Managua",
+        "currency": ["NIO"],
+        "languages": ["es"],
+        "cities": {
+        "en": ["Managua", "León", "Masaya", "Chinandega"],
+        "ar": ["ماناغوا", "ليون", "مسايا", "تشيناندغا"],
+        "fr": ["Managua", "León", "Masaya", "Chinandega"]
+        }
+    },
+    "NO": {
+        "name": {"en": "Norway", "ar": "النرويج", "fr": "Norvège"},
+        "native": "Norge",
+        "iso3": "NOR",
+        "phone": [47],
+        "continent": "EU",
+        "capital": "Oslo",
+        "currency": ["NOK"],
+        "languages": ["no"],
+        "cities": {
+        "en": ["Oslo", "Bergen", "Stavanger", "Trondheim"],
+        "ar": ["أوسلو", "بيرغن", "ستافنجر", "تروندهايم"],
+        "fr": ["Oslo", "Bergen", "Stavanger", "Trondheim"]
+        }
+    },
+    "NP": {
+        "name": {"en": "Nepal", "ar": "نيبال", "fr": "Népal"},
+        "native": "नेपाल",
+        "iso3": "NPL",
+        "phone": [977],
+        "continent": "AS",
+        "capital": "Kathmandu",
+        "currency": ["NPR"],
+        "languages": ["ne"],
+        "cities": {
+        "en": ["Kathmandu", "Pokhara", "Lalitpur", "Bhaktapur"],
+        "ar": ["كاتماندو", "بوخارا", "لاليتبور", "بختابور"],
+        "fr": ["Kathmandu", "Pokhara", "Lalitpur", "Bhaktapur"]
+        }
+    },
+    "NR": {
+        "name": {"en": "Nauru", "ar": "ناورو", "fr": "Nauru"},
+        "native": "Nauru",
+        "iso3": "NRU",
+        "phone": [674],
+        "continent": "OC",
+        "capital": "Yaren",
+        "currency": ["AUD"],
+        "languages": ["na", "en"],
+        "cities": {
+        "en": ["Yaren"],
+        "ar": ["يارين"],
+        "fr": ["Yaren"]
+        }
+    },
+    "NU": {
+        "name": {"en": "Niue", "ar": "نيوي", "fr": "Niue"},
+        "native": "Niue",
+        "iso3": "NIU",
+        "phone": [683],
+        "continent": "OC",
+        "capital": "Alofi",
+        "currency": ["NZD"],
+        "languages": ["niu", "en"],
+        "cities": {
+        "en": ["Alofi"],
+        "ar": ["ألوفي"],
+        "fr": ["Alofi"]
+        }
+    },
+    "NZ": {
+        "name": {"en": "New Zealand", "ar": "نيوزيلندا", "fr": "Nouvelle-Zélande"},
+        "native": "New Zealand",
+        "iso3": "NZL",
+        "phone": [64],
+        "continent": "OC",
+        "capital": "Wellington",
+        "currency": ["NZD"],
+        "languages": ["en", "mi"],
+        "cities": {
+        "en": ["Wellington", "Auckland", "Christchurch", "Hamilton"],
+        "ar": ["ويلينغتون", "أوكلاند", "كرايستشيرش", "هاميلتون"],
+        "fr": ["Wellington", "Auckland", "Christchurch", "Hamilton"]
+        }
+    },
+    "OM": {
+        "name": {"en": "Oman", "ar": "عمان", "fr": "Oman"},
+        "native": "عمان",
+        "iso3": "OMN",
+        "phone": [968],
+        "continent": "AS",
+        "capital": "Muscat",
+        "currency": ["OMR"],
+        "languages": ["ar"],
+        "cities": {
+        "en": ["Muscat", "Salalah", "Sohar", "Nizwa"],
+        "ar": ["مسقط", "صلالة", "صحار", "نزوى"],
+        "fr": ["Mascate", "Salalah", "Sohar", "Nizwa"]
+        }
+    },
+    "PA": {
+        "name": {"en": "Panama", "ar": "بنما", "fr": "Panama"},
+        "native": "Panamá",
+        "iso3": "PAN",
+        "phone": [507],
+        "continent": "NA",
+        "capital": "Panama City",
+        "currency": ["PAB"],
+        "languages": ["es"],
+        "cities": {
+        "en": ["Panama City", "Colón", "David", "La Chorrera"],
+        "ar": ["مدينة بنما", "كولون", "ديفيد", "لا تشوريرا"],
+        "fr": ["Panama", "Colón", "David", "La Chorrera"]
+        }
+    },
+    "PE": {
+        "name": {"en": "Peru", "ar": "بيرو", "fr": "Pérou"},
+        "native": "Perú",
+        "iso3": "PER",
+        "phone": [51],
+        "continent": "SA",
+        "capital": "Lima",
+        "currency": ["PEN"],
+        "languages": ["es"],
+        "cities": {
+        "en": ["Lima", "Arequipa", "Trujillo", "Cusco"],
+        "ar": ["ليما", "أريكويبا", "تروخيو", "كوسكو"],
+        "fr": ["Lima", "Arequipa", "Trujillo", "Cusco"]
+        }
+    },
+    "PF": {
+        "name": {"en": "French Polynesia", "ar": "بولينيزيا الفرنسية", "fr": "Polynésie française"},
+        "native": "Polynésie française",
+        "iso3": "PYF",
+        "phone": [689],
+        "continent": "OC",
+        "capital": "Papeete",
+        "currency": ["XPF"],
+        "languages": ["fr"],
+        "cities": {
+        "en": ["Papeete", "Faa'a", "Punaauia", "Mahina"],
+        "ar": ["بابيتي", "فيا", "بوناويا", "ماهينا"],
+        "fr": ["Papeete", "Faa'a", "Punaauia", "Mahina"]
+        }
+    },
+    "PG": {
+        "name": {"en": "Papua New Guinea", "ar": "بابوا غينيا الجديدة", "fr": "Papouasie-Nouvelle-Guinée"},
+        "native": "Papua New Guinea",
+        "iso3": "PNG",
+        "phone": [675],
+        "continent": "OC",
+        "capital": "Port Moresby",
+        "currency": ["PGK"],
+        "languages": ["en", "ho", "tok pisin", "hiri motu"],
+        "cities": {
+        "en": ["Port Moresby", "Lae", "Mount Hagen", "Madang"],
+        "ar": ["بورت مورسبي", "لاي", "ماونت هاجن", "مادانغ"],
+        "fr": ["Port Moresby", "Lae", "Mount Hagen", "Madang"]
+        }
+    },
+    "PH": {
+        "name": {"en": "Philippines", "ar": "الفلبين", "fr": "Philippines"},
+        "native": "Pilipinas",
+        "iso3": "PHL",
+        "phone": [63],
+        "continent": "AS",
+        "capital": "Manila",
+        "currency": ["PHP"],
+        "languages": ["fil", "en"],
+        "cities": {
+        "en": ["Manila", "Quezon City", "Cebu City", "Davao City"],
+        "ar": ["مانيلا", "كويزون سيتي", "سيبو سيتي", "دافاو سيتي"],
+        "fr": ["Manille", "Quezon City", "Cebu City", "Davao City"]
+        }
+    },
+    "PK": {
+        "name": {"en": "Pakistan", "ar": "باكستان", "fr": "Pakistan"},
+        "native": "پاکستان",
+        "iso3": "PAK",
+        "phone": [92],
+        "continent": "AS",
+        "capital": "Islamabad",
+        "currency": ["PKR"],
+        "languages": ["ur", "en"],
+        "cities": {
+        "en": ["Islamabad", "Karachi", "Lahore", "Peshawar"],
+        "ar": ["إسلام آباد", "كراتشي", "لاهور", "بيشاور"],
+        "fr": ["Islamabad", "Karachi", "Lahore", "Peshawar"]
+        }
+    },
+    "PL": {
+        "name": {"en": "Poland", "ar": "بولندا", "fr": "Pologne"},
+        "native": "Polska",
+        "iso3": "POL",
+        "phone": [48],
+        "continent": "EU",
+        "capital": "Warsaw",
+        "currency": ["PLN"],
+        "languages": ["pl"],
+        "cities": {
+        "en": ["Warsaw", "Kraków", "Łódź", "Wrocław", "Poznań", "Gdańsk", "Szczecin", "Bydgoszcz", "Lublin", "Katowice"],
+        "ar": ["وارسو", "كراكوف", "وودج", "فروتسواف", "بوزنان", "غدانسك", "شتشيتسين", "بيدغوش", "لوبلين", "كاتوفيتسه"],
+        "fr": ["Varsovie", "Cracovie", "Łódź", "Wrocław", "Poznań", "Gdańsk", "Szczecin", "Bydgoszcz", "Lublin", "Katowice"]
+        }
+    },
+    "PM": {
+        "name": {"en": "Saint Pierre and Miquelon", "ar": "سانت بيير وميكلون", "fr": "Saint-Pierre-et-Miquelon"},
+        "native": "Saint-Pierre-et-Miquelon",
+        "iso3": "SPM",
+        "phone": [508],
+        "continent": "NA",
+        "capital": "Saint-Pierre",
+        "currency": ["EUR"],
+        "languages": ["fr"],
+        "cities": {
+        "en": ["Saint-Pierre", "Miquelon", "Langlade"],
+        "ar": ["سانت بيير", "ميكلون", "لانجليد"],
+        "fr": ["Saint-Pierre", "Miquelon", "Langlade"]
+        }
+    },
+    "PR": {
+        "name": {"en": "Puerto Rico", "ar": "بورتو ريكو", "fr": "Porto Rico"},
+        "native": "Puerto Rico",
+        "iso3": "PRI",
+        "phone": [1, 787, 939],
+        "continent": "NA",
+        "capital": "San Juan",
+        "currency": ["USD"],
+        "languages": ["es", "en"],
+        "cities": {
+        "en": ["San Juan", "Ponce", "Bayamón", "Carolina", "Caguas"],
+        "ar": ["سان خوان", "بونس", "بايامون", "كارولينا", "كاجواس"],
+        "fr": ["San Juan", "Ponce", "Bayamón", "Carolina", "Caguas"]
+        }
+    },
+        "PS": {
+        "name": {"en": "Palestine", "ar": "فلسطين", "fr": "Palestine"},
+        "native": "فلسطين",
+        "iso3": "PSE",
+        "phone": [970],
+        "continent": "AS",
+        "capital": "Ramallah",
+        "currency": ["ILS", "JOD"],
+        "languages": ["ar"],
+        "cities": {
+        "en": ["Ramallah", "Gaza", "Nablus", "Hebron", "Bethlehem"],
+        "ar": ["رام الله", "غزة", "نابلس", "الخليل", "بيت لحم"],
+        "fr": ["Ramallah", "Gaza", "Naplouse", "Hébron", "Bethléem"]
+        }
+    },
+    "PT": {
+        "name": {"en": "Portugal", "ar": "البرتغال", "fr": "Portugal"},
+        "native": "Portugal",
+        "iso3": "PRT",
+        "phone": [351],
+        "continent": "EU",
+        "capital": "Lisbon",
+        "currency": ["EUR"],
+        "languages": ["pt"],
+        "cities": {
+        "en": ["Lisbon", "Porto", "Amadora", "Braga", "Coimbra", "Aveiro", "Funchal", "Évora", "Faro", "Leiria"],
+        "ar": ["لشبونة", "بورتو", "أمادورا", "براجا", "كويمبرا", "أفيرو", "فونشال", "إيفورا", "فاروه", "ليريا"],
+        "fr": ["Lisbonne", "Porto", "Amadora", "Braga", "Coimbra", "Aveiro", "Funchal", "Évora", "Faro", "Leiria"]
+        }
+    },
+    "PW": {
+        "name": {"en": "Palau", "ar": "بالاو", "fr": "Palaos"},
+        "native": "Belau",
+        "iso3": "PLW",
+        "phone": [680],
+        "continent": "OC",
+        "capital": "Ngerulmud",
+        "currency": ["USD"],
+        "languages": ["pau", "en"],
+        "cities": {
+        "en": ["Ngerulmud", "Melekeok", "Koror", "Airai", "Ngaraard"],
+        "ar": ["نجرولمود", "ميليكيوك", "كورور", "أيراي", "نجارارد"],
+        "fr": ["Ngerulmud", "Melekeok", "Koror", "Airai", "Ngaraard"]
+        }
+    },
+    "PY": {
+        "name": {"en": "Paraguay", "ar": "باراغواي", "fr": "Paraguay"},
+        "native": "Paraguái",
+        "iso3": "PRY",
+        "phone": [595],
+        "continent": "SA",
+        "capital": "Asunción",
+        "currency": ["PYG"],
+        "languages": ["gn", "es"],
+        "cities": {
+        "en": ["Asunción", "Ciudad del Este", "San Lorenzo", "Luque", "Capiatá"],
+        "ar": ["أسونسيون", "سيوداد ديل إستيه", "سان لورنزو", "لوكي", "كابياتا"],
+        "fr": ["Asunción", "Ciudad del Este", "San Lorenzo", "Luque", "Capiatá"]
+        }
+    },
+    "QA": {
+        "name": {"en": "Qatar", "ar": "قطر", "fr": "Qatar"},
+        "native": "قطر",
+        "iso3": "QAT",
+        "phone": [974],
+        "continent": "AS",
+        "capital": "Doha",
+        "currency": ["QAR"],
+        "languages": ["ar"],
+        "cities": {
+        "en": ["Doha", "Al Rayyan", "Al Wakrah", "Al Khor", "Al Daayen"],
+        "ar": ["الدوحة", "الريان", "الوكرة", "الخور", "الدحيل"],
+        "fr": ["Doha", "Al Rayyan", "Al Wakrah", "Al Khor", "Al Daayen"]
+        }
+    },
+    "RE": {
+        "name": {"en": "Réunion", "ar": "ريونيون", "fr": "La Réunion"},
+        "native": "La Réunion",
+        "iso3": "REU",
+        "phone": [262],
+        "continent": "AF",
+        "capital": "Saint-Denis",
+        "currency": ["EUR"],
+        "languages": ["fr"],
+        "cities": {
+        "en": ["Saint-Denis", "Saint-Paul", "Saint-Pierre", "Saint-Louis", "Le Tampon"],
+        "ar": ["سانت دينيس", "سانت بول", "سانت بيير", "سانت لويس", "لو تامبون"],
+        "fr": ["Saint-Denis", "Saint-Paul", "Saint-Pierre", "Saint-Louis", "Le Tampon"]
+        }
+    },
+    "RO": {
+        "name": {"en": "Romania", "ar": "رومانيا", "fr": "Roumanie"},
+        "native": "România",
+        "iso3": "ROU",
+        "phone": [40],
+        "continent": "EU",
+        "capital": "Bucharest",
+        "currency": ["RON"],
+        "languages": ["ro"],
+        "cities": {
+        "en": ["Bucharest", "Cluj-Napoca", "Timișoara", "Iași", "Constanța", "Craiova", "Brașov", "Galați", "Ploiești", "Oradea"],
+        "ar": ["بوخارست", "كلوج نابوكا", "تيميشوارا", "ياشي", "كونستانتسا", "كرايوفا", "براشوف", "غالاطي", "بلويشتي", "أوراديا"],
+        "fr": ["Bucarest", "Cluj-Napoca", "Timișoara", "Iași", "Constanța", "Craiova", "Brașov", "Galați", "Ploiești", "Oradea"]
+        }
+    },
+    "RS": {
+        "name": {"en": "Serbia", "ar": "صربيا", "fr": "Serbie"},
+        "native": "Srbija",
+        "iso3": "SRB",
+        "phone": [381],
+        "continent": "EU",
+        "capital": "Belgrade",
+        "currency": ["RSD"],
+        "languages": ["sr"],
+        "cities": {
+        "en": ["Belgrade", "Novi Sad", "Niš", "Kragujevac", "Subotica"],
+        "ar": ["بلغراد", "نوفى ساد", "نيش", "كراغوييفاتس", "سبوتيتسا"],
+        "fr": ["Belgrade", "Novi Sad", "Niš", "Kragujevac", "Subotica"]
+        }
+    },
+    "RU": {
+        "name": {"en": "Russia", "ar": "روسيا", "fr": "Russie"},
+        "native": "Россия",
+        "iso3": "RUS",
+        "phone": [7],
+        "continent": "EU",
+        "capital": "Moscow",
+        "currency": ["RUB"],
+        "languages": ["ru"],
+        "cities": {
+        "en": ["Moscow", "Saint Petersburg", "Novosibirsk", "Yekaterinburg", "Nizhny Novgorod", "Samara", "Omsk", "Kazan", "Chelyabinsk", "Rostov-on-Don"],
+        "ar": ["موسكو", "سانت بطرسبرغ", "نوفوسيبيرسك", "يكاترينبورغ", "نيجني نوفغورود", "ساما", "أومسك", "قازان", "تشيليابينسك", "روستوف على نهر الدون"],
+        "fr": ["Moscou", "Saint-Pétersbourg", "Novossibirsk", "Iekaterinbourg", "Nijni Novgorod", "Samara", "Omsk", "Kazan", "Tcheliabinsk", "Rostov-sur-le-Don"]
+        }
+    },
+    "RW": {
+        "name": {"en": "Rwanda", "ar": "رواندا", "fr": "Rwanda"},
+        "native": "Rwanda",
+        "iso3": "RWA",
+        "phone": [250],
+        "continent": "AF",
+        "capital": "Kigali",
+        "currency": ["RWF"],
+        "languages": ["rw", "en", "fr"],
+        "cities": {
+        "en": ["Kigali", "Butare", "Gisenyi", "Ruhengeri", "Cyangugu"],
+        "ar": ["كيغالي", "بوتاري", "جيسينيي", "روحينجيري", "سيانغوغو"],
+        "fr": ["Kigali", "Butare", "Gisenyi", "Ruhengeri", "Cyangugu"]
+        }
+    },
+    "SA": {
+        "name": {"en": "Saudi Arabia", "ar": "المملكة العربية السعودية", "fr": "Arabie Saoudite"},
+        "native": "Al-ʿArabīyah as-Suʿūdīyah",
+        "iso3": "SAU",
+        "phone": [966],
+        "continent": "AS",
+        "capital": "Riyadh",
+        "currency": ["SAR"],
+        "languages": ["ar"],
+        "cities": {
+        "en": ["Riyadh", "Jeddah", "Mecca", "Medina", "Dammam"],
+        "ar": ["الرياض", "جدة", "مكة", "المدينة المنورة", "الدمام"],
+        "fr": ["Riyad", "Djeddah", "La Mecque", "Médine", "Dammam"]
+        }
+    },
+    "SB": {
+        "name": {"en": "Solomon Islands", "ar": "جزر سليمان", "fr": "Îles Salomon"},
+        "native": "Solomon Islands",
+        "iso3": "SLB",
+        "phone": [677],
+        "continent": "OC",
+        "capital": "Honiara",
+        "currency": ["SBD"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Honiara", "Gizo", "Auki", "Kirakira", "Tulagi"],
+        "ar": ["هونيارا", "جيزو", "أوكي", "كيراكيرا", "تولاجي"],
+        "fr": ["Honiara", "Gizo", "Auki", "Kirakira", "Tulagi"]
+        }
+    },
+    "SC": {
+        "name": {"en": "Seychelles", "ar": "سيشيل", "fr": "Seychelles"},
+        "native": "Seychelles",
+        "iso3": "SYC",
+        "phone": [248],
+        "continent": "AF",
+        "capital": "Victoria",
+        "currency": ["SCR"],
+        "languages": ["en", "fr", "crs"],
+        "cities": {
+        "en": ["Victoria", "Anse Royale", "Bel Ombre", "Beau Vallon", "Anse Boileau"],
+        "ar": ["فيكتوريا", "أنس رويال", "بيل أومبري", "بو فالون", "أنس بويلو"],
+        "fr": ["Victoria", "Anse Royale", "Bel Ombre", "Beau Vallon", "Anse Boileau"]
+        }
+    },
+    "SD": {
+        "name": {"en": "Sudan", "ar": "السودان", "fr": "Soudan"},
+        "native": "السودان",
+        "iso3": "SDN",
+        "phone": [249],
+        "continent": "AF",
+        "capital": "Khartoum",
+        "currency": ["SDG"],
+        "languages": ["ar", "en"],
+        "cities": {
+        "en": ["Khartoum", "Omdurman", "Port Sudan", "Kassala", "El-Obeid"],
+        "ar": ["الخرطوم", "أمدرمان", "بورسودان", "كسلا", "الأبيض"],
+        "fr": ["Khartoum", "Omdurman", "Port-Soudan", "Kassala", "El-Obeid"]
+        }
+    },
+    "SE": {
+        "name": {"en": "Sweden", "ar": "السويد", "fr": "Suède"},
+        "native": "Sverige",
+        "iso3": "SWE",
+        "phone": [46],
+        "continent": "EU",
+        "capital": "Stockholm",
+        "currency": ["SEK"],
+        "languages": ["sv"],
+        "cities": {
+        "en": ["Stockholm", "Gothenburg", "Malmö", "Uppsala", "Västerås"],
+        "ar": ["ستوكهولم", "غوتنبرغ", "مالمو", "أوبسالا", "فيستيروس"],
+        "fr": ["Stockholm", "Göteborg", "Malmö", "Uppsala", "Västerås"]
+        }
+    },
+    "SG": {
+        "name": {"en": "Singapore", "ar": "سنغافورة", "fr": "Singapour"},
+        "native": "Singapore",
+        "iso3": "SGP",
+        "phone": [65],
+        "continent": "AS",
+        "capital": "Singapore",
+        "currency": ["SGD"],
+        "languages": ["en", "ms", "ta", "zh"],
+        "cities": {
+        "en": ["Singapore"],
+        "ar": ["سنغافورة"],
+        "fr": ["Singapour"]
+        }
+    },
+    "SI": {
+        "name": {"en": "Slovenia", "ar": "سلوفينيا", "fr": "Slovénie"},
+        "native": "Slovenija",
+        "iso3": "SVN",
+        "phone": [386],
+        "continent": "EU",
+        "capital": "Ljubljana",
+        "currency": ["EUR"],
+        "languages": ["sl"],
+        "cities": {
+        "en": ["Ljubljana", "Maribor", "Celje", "Kranj", "Velenje"],
+        "ar": ["ليوبليانا", "ماريبور", "سيلي", "كرانج", "فيليني"],
+        "fr": ["Ljubljana", "Maribor", "Celje", "Kranj", "Velenje"]
+        }
+    },
+    "SK": {
+        "name": {"en": "Slovakia", "ar": "سلوفاكيا", "fr": "Slovaquie"},
+        "native": "Slovensko",
+        "iso3": "SVK",
+        "phone": [421],
+        "continent": "EU",
+        "capital": "Bratislava",
+        "currency": ["EUR"],
+        "languages": ["sk"],
+        "cities": {
+        "en": ["Bratislava", "Košice", "Prešov", "Žilina", "Nitra"],
+        "ar": ["براتيسلافا", "كوشيتسه", "برشوف", "زيلينا", "نيترا"],
+        "fr": ["Bratislava", "Košice", "Prešov", "Žilina", "Nitra"]
+        }
+    },
+    "SL": {
+        "name": {"en": "Sierra Leone", "ar": "سيراليون", "fr": "Sierra Leone"},
+        "native": "Sierra Leone",
+        "iso3": "SLE",
+        "phone": [232],
+        "continent": "AF",
+        "capital": "Freetown",
+        "currency": ["SLL"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Freetown", "Bo", "Kenema", "Makeni", "Koidu"],
+        "ar": ["فريتاون", "بو", "كينما", "ماكيني", "كويدو"],
+        "fr": ["Freetown", "Bo", "Kenema", "Makeni", "Koidu"]
+        }
+    },
+    "SN": {
+        "name": {"en": "Senegal", "ar": "السنغال", "fr": "Sénégal"},
+        "native": "Sénégal",
+        "iso3": "SEN",
+        "phone": [221],
+        "continent": "AF",
+        "capital": "Dakar",
+        "currency": ["XOF"],
+        "languages": ["fr"],
+        "cities": {
+        "en": ["Dakar", "Thiès", "Saint-Louis", "Ziguinchor", "Kaolack"],
+        "ar": ["داكار", "ثييس", "سانت لويس", "زيغينكور", "كاولاك"],
+        "fr": ["Dakar", "Thiès", "Saint-Louis", "Ziguinchor", "Kaolack"]
+        }
+    },
+    "SO": {
+        "name": {"en": "Somalia", "ar": "الصومال", "fr": "Somalie"},
+        "native": "Soomaaliya",
+        "iso3": "SOM",
+        "phone": [252],
+        "continent": "AF",
+        "capital": "Mogadishu",
+        "currency": ["SOS"],
+        "languages": ["so", "ar"],
+        "cities": {
+        "en": ["Mogadishu", "Hargeisa", "Bosaso", "Kismayo", "Baidoa"],
+        "ar": ["مقديشو", "هرجيسا", "بوصاصو", "كيسمايو", "بايدوا"],
+        "fr": ["Mogadiscio", "Hargeisa", "Bosaso", "Kismayo", "Baidoa"]
+        }
+    },
+    "SR": {
+        "name": {"en": "Suriname", "ar": "سورينام", "fr": "Suriname"},
+        "native": "Suriname",
+        "iso3": "SUR",
+        "phone": [597],
+        "continent": "SA",
+        "capital": "Paramaribo",
+        "currency": ["SRD"],
+        "languages": ["nl"],
+        "cities": {
+        "en": ["Paramaribo", "Lelydorp", "Nieuw Nickerie", "Moengo", "Albina"],
+        "ar": ["باراماريبو", "ليليدورب", "نيو نيكر", "موينغو", "ألبينا"],
+        "fr": ["Paramaribo", "Lelydorp", "Nieuw Nickerie", "Moengo", "Albina"]
+        }
+    },
+    "ST": {
+        "name": {"en": "São Tomé and Príncipe", "ar": "ساو تومي وبرينسيبي", "fr": "Sao Tomé-et-Principe"},
+        "native": "São Tomé e Príncipe",
+        "iso3": "STP",
+        "phone": [239],
+        "continent": "AF",
+        "capital": "São Tomé",
+        "currency": ["STN"],
+        "languages": ["pt"],
+        "cities": {
+        "en": ["São Tomé", "Santo Amaro", "Neves", "Trindade", "Guadalupe"],
+        "ar": ["ساو تومي", "سانتو أمارو", "نيفيس", "ترينداد", "غوادالوب"],
+        "fr": ["São Tomé", "Santo Amaro", "Neves", "Trindade", "Guadalupe"]
+        }
+    },
+    "SV": {
+        "name": {"en": "El Salvador", "ar": "السلفادور", "fr": "Salvador"},
+        "native": "El Salvador",
+        "iso3": "SLV",
+        "phone": [503],
+        "continent": "NA",
+        "capital": "San Salvador",
+        "currency": ["SVC", "USD"],
+        "languages": ["es"],
+        "cities": {
+        "en": ["San Salvador", "Santa Ana", "San Miguel", "La Libertad", "Sonsonate"],
+        "ar": ["سان سلفادور", "سانتا آنا", "سان ميغيل", "لا ليبرتاد", "سونسوناتي"],
+        "fr": ["San Salvador", "Santa Ana", "San Miguel", "La Libertad", "Sonsonate"]
+        }
+    },
+    "SX": {
+        "name": {"en": "Sint Maarten", "ar": "سينت مارتن", "fr": "Saint-Martin"},
+        "native": "Sint Maarten",
+        "iso3": "SXM",
+        "phone": [1721],
+        "continent": "NA",
+        "capital": "Philipsburg",
+        "currency": ["ANG"],
+        "languages": ["nl", "en"],
+        "cities": {
+        "en": ["Philipsburg", "Simpson Bay", "Cole Bay", "Marigot", "Oyster Pond"],
+        "ar": ["فيلبسبرغ", "سيمبسون باي", "كول باي", "ماريغو", "أويستر بوند"],
+        "fr": ["Philipsburg", "Simpson Bay", "Cole Bay", "Marigot", "Oyster Pond"]
+        }
+    },
+    "SY": {
+        "name": {"en": "Syria", "ar": "سوريا", "fr": "Syrie"},
+        "native": "سوريا",
+        "iso3": "SYR",
+        "phone": [963],
+        "continent": "AS",
+        "capital": "Damascus",
+        "currency": ["SYP"],
+        "languages": ["ar"],
+        "cities": {
+        "en": ["Damascus", "Aleppo", "Homs", "Hama", "Latakia"],
+        "ar": ["دمشق", "حلب", "حمص", "حماة", "اللاذقية"],
+        "fr": ["Damas", "Alep", "Homs", "Hama", "Lattaquié"]
+        }
+    },
+    "SZ": {
+        "name": {"en": "Eswatini", "ar": "إسواتيني", "fr": "Eswatini"},
+        "native": "Eswatini",
+        "iso3": "SWZ",
+        "phone": [268],
+        "continent": "AF",
+        "capital": "Mbabane",
+        "currency": ["SZL"],
+        "languages": ["en", "ss"],
+        "cities": {
+        "en": ["Mbabane", "Manzini", "Lobamba", "Siteki", "Nhlangano"],
+        "ar": ["مباباني", "مانزيني", "لوبامبا", "سايتيكي", "نهلانغو"],
+        "fr": ["Mbabane", "Manzini", "Lobamba", "Siteki", "Nhlangano"]
+        }
+    },
+    "TC": {
+        "name": {"en": "Turks and Caicos Islands", "ar": "جزر توركس وكايكوس", "fr": "Îles Turques-et-Caïques"},
+        "native": "Turks and Caicos Islands",
+        "iso3": "TCA",
+        "phone": [1649],
+        "continent": "NA",
+        "capital": "Cockburn Town",
+        "currency": ["USD"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Cockburn Town", "Grand Turk", "Providenciales", "North Caicos", "South Caicos"],
+        "ar": ["كوكبورن تاون", "جراند توركس", "بروفيدينسياليس", "نورث كايكوس", "ساوث كايكوس"],
+        "fr": ["Cockburn Town", "Grand Turk", "Providenciales", "North Caicos", "South Caicos"]
+        }
+    },
+    "TD": {
+        "name": {"en": "Chad", "ar": "تشاد", "fr": "Tchad"},
+        "native": "Tchad",
+        "iso3": "TCD",
+        "phone": [235],
+        "continent": "AF",
+        "capital": "N'Djamena",
+        "currency": ["XAF"],
+        "languages": ["fr", "ar"],
+        "cities": {
+        "en": ["N'Djamena", "Moundou", "Sarh", "Abéché", "Kélo"],
+        "ar": ["انجامينا", "موندو", "ساره", "أبيشي", "كيلو"],
+        "fr": ["N'Djamena", "Moundou", "Sarh", "Abéché", "Kélo"]
+        }
+    },
+    "TF": {
+        "name": {"en": "French Southern Territories", "ar": "المناطق الجنوبية الفرنسية", "fr": "Terres australes françaises"},
+        "native": "Terres australes françaises",
+        "iso3": "ATF",
+        "phone": [0],
+        "continent": "AN",
+        "capital": "Port-aux-Français",
+        "currency": ["EUR"],
+        "languages": ["fr"],
+        "cities": {
+        "en": ["Port-aux-Français"],
+        "ar": ["بورت أو فرانسيس"],
+        "fr": ["Port-aux-Français"]
+        }
+    },
+    "TG": {
+        "name": {"en": "Togo", "ar": "توغو", "fr": "Togo"},
+        "native": "Togo",
+        "iso3": "TGO",
+        "phone": [228],
+        "continent": "AF",
+        "capital": "Lomé",
+        "currency": ["XOF"],
+        "languages": ["fr", "ee", "kab"],
+        "cities": {
+        "en": ["Lomé", "Sokodé", "Kara", "Dapaong", "Atakpamé"],
+        "ar": ["لومي", "سوكودي", "كارا", "داباونغ", "أتاكبامي"],
+        "fr": ["Lomé", "Sokodé", "Kara", "Dapaong", "Atakpamé"]
+        }
+    },
+    "TH": {
+        "name": {"en": "Thailand", "ar": "تايلاند", "fr": "Thaïlande"},
+        "native": "ประเทศไทย",
+        "iso3": "THA",
+        "phone": [66],
+        "continent": "AS",
+        "capital": "Bangkok",
+        "currency": ["THB"],
+        "languages": ["th"],
+        "cities": {
+        "en": ["Bangkok", "Chiang Mai", "Phuket", "Pattaya", "Hat Yai"],
+        "ar": ["بانكوك", "تشيانغ ماي", "بوكيت", "باتايا", "هات ياي"],
+        "fr": ["Bangkok", "Chiang Mai", "Phuket", "Pattaya", "Hat Yai"]
+        }
+    },
+    "TJ": {
+        "name": {"en": "Tajikistan", "ar": "طاجيكستان", "fr": "Tadjikistan"},
+        "native": "Тоҷикистон",
+        "iso3": "TJK",
+        "phone": [992],
+        "continent": "AS",
+        "capital": "Dushanbe",
+        "currency": ["TJS"],
+        "languages": ["tg", "ru"],
+        "cities": {
+        "en": ["Dushanbe", "Khujand", "Kulob", "Khorugh", "Istaravshan"],
+        "ar": ["دوشانبي", "خجند", "كولوب", "خورغ", "إستارافشان"],
+        "fr": ["Douchanbé", "Khoudjent", "Koulob", "Khorough", "Istaravchan"]
+        }
+    },
+    "TM": {
+        "name": {"en": "Turkmenistan", "ar": "تركمانستان", "fr": "Turkménistan"},
+        "native": "Türkmenistan",
+        "iso3": "TKM",
+        "phone": [993],
+        "continent": "AS",
+        "capital": "Ashgabat",
+        "currency": ["TMT"],
+        "languages": ["tk", "ru"],
+        "cities": {
+        "en": ["Ashgabat", "Turkmenabat", "Mary", "Balkanabat", "Dashoguz"],
+        "ar": ["عشق أباد", "تركمان أباد", "ماري", "بالكان أباد", "داش أوغوز"],
+        "fr": ["Achgabat", "Turkmenabat", "Mary", "Balkanabat", "Daşoguz"]
+        }
+    },
+    "TN": {
+        "name": {"en": "Tunisia", "ar": "تونس", "fr": "Tunisie"},
+        "native": "تونس",
+        "iso3": "TUN",
+        "phone": [216],
+        "continent": "AF",
+        "capital": "Tunis",
+        "currency": ["TND"],
+        "languages": ["ar", "fr"],
+        "cities": {
+        "en": ["Tunis", "Sfax", "Sousse", "Kairouan", "Gabes"],
+        "ar": ["تونس", "صفاقس", "سوسة", "القيروان", "قابس"],
+        "fr": ["Tunis", "Sfax", "Sousse", "Kairouan", "Gabès"]
+        }
+    },
+    "TO": {
+        "name": {"en": "Tonga", "ar": "تونغا", "fr": "Tonga"},
+        "native": "Tonga",
+        "iso3": "TON",
+        "phone": [676],
+        "continent": "OC",
+        "capital": "Nuku'alofa",
+        "currency": ["TOP"],
+        "languages": ["en", "to"],
+        "cities": {
+        "en": ["Nuku'alofa", "Neiafu", "Havelu", "Vaini", "Mu'a"],
+        "ar": ["نوكوالوفا", "نيافو", "هافيلو", "فايني", "موأ"],
+        "fr": ["Nuku'alofa", "Neiafu", "Havelu", "Vaini", "Mu'a"]
+        }
+    },
+    "TR": {
+        "name": {"en": "Turkey", "ar": "تركيا", "fr": "Turquie"},
+        "native": "Türkiye",
+        "iso3": "TUR",
+        "phone": [90],
+        "continent": "AS",
+        "capital": "Ankara",
+        "currency": ["TRY"],
+        "languages": ["tr"],
+        "cities": {
+        "en": ["Ankara", "Istanbul", "Izmir", "Bursa", "Antalya"],
+        "ar": ["أنقرة", "اسطنبول", "إزمير", "بورصة", "أنطاليا"],
+        "fr": ["Ankara", "Istanbul", "Izmir", "Bursa", "Antalya"]
+        }
+    },
+    "TW": {
+        "name": {"en": "Taiwan", "ar": "تايوان", "fr": "Taïwan"},
+        "native": "台灣",
+        "iso3": "TWN",
+        "phone": [886],
+        "continent": "AS",
+        "capital": "Taipei",
+        "currency": ["TWD"],
+        "languages": ["zh"],
+        "cities": {
+        "en": ["Taipei", "Kaohsiung", "Taichung", "Tainan", "Hsinchu"],
+        "ar": ["تايبيه", "كاوهسيونغ", "تايتشونغ", "تاينان", "هسينشو"],
+        "fr": ["Taipei", "Kaohsiung", "Taichung", "Tainan", "Hsinchu"]
+        }
+    },
+    "TZ": {
+        "name": {"en": "Tanzania", "ar": "تنزانيا", "fr": "Tanzanie"},
+        "native": "Tanzania",
+        "iso3": "TZA",
+        "phone": [255],
+        "continent": "AF",
+        "capital": "Dodoma",
+        "currency": ["TZS"],
+        "languages": ["sw", "en"],
+        "cities": {
+        "en": ["Dodoma", "Dar es Salaam", "Mwanza", "Arusha", "Zanzibar City"],
+        "ar": ["دودوما", "دار السلام", "موانزا", "أروشا", "مدينة زنجبار"],
+        "fr": ["Dodoma", "Dar es Salaam", "Mwanza", "Arusha", "Zanzibar"]
+        }
+    },
+        "UA": {
+        "name": {"en": "Ukraine", "ar": "أوكرانيا", "fr": "Ukraine"},
+        "native": "Україна",
+        "iso3": "UKR",
+        "phone": [380],
+        "continent": "EU",
+        "capital": "Kyiv",
+        "currency": ["UAH"],
+        "languages": ["uk", "ru"],
+        "cities": {
+        "en": ["Kyiv", "Kharkiv", "Odesa", "Dnipro", "Lviv"],
+        "ar": ["كييف", "خاركيف", "أوديسا", "دنيبرو", "لفيف"],
+        "fr": ["Kyiv", "Kharkiv", "Odessa", "Dnipro", "Lviv"]
+        }
+    },
+    "UG": {
+        "name": {"en": "Uganda", "ar": "أوغندا", "fr": "Ouganda"},
+        "native": "Uganda",
+        "iso3": "UGA",
+        "phone": [256],
+        "continent": "AF",
+        "capital": "Kampala",
+        "currency": ["UGX"],
+        "languages": ["en", "sw"],
+        "cities": {
+        "en": ["Kampala", "Gulu", "Lira", "Mbarara", "Jinja"],
+        "ar": ["كمبالا", "غولو", "ليرا", "مبارارا", "جينجا"],
+        "fr": ["Kampala", "Gulu", "Lira", "Mbarara", "Jinja"]
+        }
+    },
+    "UM": {
+        "name": {"en": "United States Minor Outlying Islands", "ar": "جزر الولايات المتحدة الصغيرة النائية", "fr": "Îles mineures éloignées des États-Unis"},
+        "native": "United States Minor Outlying Islands",
+        "iso3": "UMI",
+        "phone": [1],
+        "continent": "OC",
+        "capital": "",
+        "currency": ["USD"],
+        "languages": ["en"],
+        "cities": {
+        "en": [],
+        "ar": [],
+        "fr": []
+        }
+    },
+    "US": {
+        "name": {"en": "United States", "ar": "الولايات المتحدة الأمريكية", "fr": "États-Unis"},
+        "native": "United States of America",
+        "iso3": "USA",
+        "phone": [1],
+        "continent": "NA",
+        "capital": "Washington, D.C.",
+        "currency": ["USD"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Washington, D.C.", "New York", "Los Angeles", "Chicago", "Houston"],
+        "ar": ["واشنطن العاصمة", "نيويورك", "لوس أنجلوس", "شيكاغو", "هيوستن"],
+        "fr": ["Washington D.C.", "New York", "Los Angeles", "Chicago", "Houston"]
+        }
+    },
+    "UY": {
+        "name": {"en": "Uruguay", "ar": "أوروغواي", "fr": "Uruguay"},
+        "native": "Uruguay",
+        "iso3": "URY",
+        "phone": [598],
+        "continent": "SA",
+        "capital": "Montevideo",
+        "currency": ["UYU"],
+        "languages": ["es"],
+        "cities": {
+        "en": ["Montevideo", "Salto", "Paysandú", "Maldonado", "Rivera"],
+        "ar": ["مونتفيدو", "سالطو", "بايساندو", "مالدونادو", "ريفييرا"],
+        "fr": ["Montevideo", "Salto", "Paysandú", "Maldonado", "Rivera"]
+        }
+    },
+    "UZ": {
+        "name": {"en": "Uzbekistan", "ar": "أوزبكستان", "fr": "Ouzbékistan"},
+        "native": "Oʻzbekiston",
+        "iso3": "UZB",
+        "phone": [998],
+        "continent": "AS",
+        "capital": "Tashkent",
+        "currency": ["UZS"],
+        "languages": ["uz", "ru"],
+        "cities": {
+        "en": ["Tashkent", "Samarkand", "Bukhara", "Andijan", "Namangan"],
+        "ar": ["طشقند", "سمرقند", "بخارى", "أنديجان", "نامانجان"],
+        "fr": ["Tachkent", "Samarkand", "Boukhara", "Andijan", "Namangan"]
+        }
+    },
+    "VA": {
+        "name": {"en": "Vatican City", "ar": "دولة الفاتيكان", "fr": "Vatican"},
+        "native": "Vatican City",
+        "iso3": "VAT",
+        "phone": [39],
+        "continent": "EU",
+        "capital": "Vatican City",
+        "currency": ["EUR"],
+        "languages": ["it", "la"],
+        "cities": {
+        "en": ["Vatican City"],
+        "ar": ["مدينة الفاتيكان"],
+        "fr": ["Cité du Vatican"]
+        }
+    },
+    "VC": {
+        "name": {"en": "Saint Vincent and the Grenadines", "ar": "سانت فنسنت وجزر غرينادين", "fr": "Saint-Vincent-et-les-Grenadines"},
+        "native": "Saint Vincent and the Grenadines",
+        "iso3": "VCT",
+        "phone": [1784],
+        "continent": "NA",
+        "capital": "Kingstown",
+        "currency": ["XCD"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Kingstown", "Georgetown", "Barrouallie", "Chateaubelair", "Layou"],
+        "ar": ["كينغستاون", "جورج تاون", "بارواللي", "شاتوبيلير", "لايو"],
+        "fr": ["Kingstown", "Georgetown", "Barrouallie", "Chateaubelair", "Layou"]
+        }
+    },
+    "VE": {
+        "name": {"en": "Venezuela", "ar": "فنزويلا", "fr": "Venezuela"},
+        "native": "Venezuela",
+        "iso3": "VEN",
+        "phone": [58],
+        "continent": "SA",
+        "capital": "Caracas",
+        "currency": ["VES"],
+        "languages": ["es"],
+        "cities": {
+        "en": ["Caracas", "Maracaibo", "Valencia", "Barquisimeto", "Ciudad Guayana"],
+        "ar": ["كاراكاس", "ماراكايبو", "فالنسيا", "باركيسيميتو", "سيوداد غويانا"],
+        "fr": ["Caracas", "Maracaibo", "Valencia", "Barquisimeto", "Ciudad Guayana"]
+        }
+    },
+    "VG": {
+        "name": {"en": "British Virgin Islands", "ar": "جزر العذراء البريطانية", "fr": "Îles Vierges britanniques"},
+        "native": "British Virgin Islands",
+        "iso3": "VGB",
+        "phone": [1284],
+        "continent": "NA",
+        "capital": "Road Town",
+        "currency": ["USD"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Road Town", "Tortola", "Virgin Gorda", "Anegada", "Jost Van Dyke"],
+        "ar": ["رود تاون", "تورتولا", "فيرجين غوردا", "أنغادا", "جوست فان دايك"],
+        "fr": ["Road Town", "Tortola", "Virgin Gorda", "Anegada", "Jost Van Dyke"]
+        }
+    },
+    "VI": {
+        "name": {"en": "U.S. Virgin Islands", "ar": "جزر فيرجن الأمريكية", "fr": "Îles Vierges des États-Unis"},
+        "native": "U.S. Virgin Islands",
+        "iso3": "VIR",
+        "phone": [1340],
+        "continent": "NA",
+        "capital": "Charlotte Amalie",
+        "currency": ["USD"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Charlotte Amalie", "Christiansted", "Frederiksted", "Cruz Bay", "Red Hook"],
+        "ar": ["شارلوت أمالي", "كريستيانستيد", "فريدريكستيد", "كروز باي", "ريد هوك"],
+        "fr": ["Charlotte Amalie", "Christiansted", "Frederiksted", "Cruz Bay", "Red Hook"]
+        }
+    },
+    "VN": {
+        "name": {"en": "Vietnam", "ar": "فيتنام", "fr": "Viêt Nam"},
+        "native": "Việt Nam",
+        "iso3": "VNM",
+        "phone": [84],
+        "continent": "AS",
+        "capital": "Hanoi",
+        "currency": ["VND"],
+        "languages": ["vi"],
+        "cities": {
+        "en": ["Hanoi", "Ho Chi Minh City", "Da Nang", "Hai Phong", "Can Tho"],
+        "ar": ["هانوي", "هو تشي منه", "دا نانغ", "هاي فونغ", "كان ثو"],
+        "fr": ["Hanoï", "Hô Chi Minh-Ville", "Da Nang", "Hai Phong", "Can Tho"]
+        }
+    },
+    "VU": {
+        "name": {"en": "Vanuatu", "ar": "فانواتو", "fr": "Vanuatu"},
+        "native": "Vanuatu",
+        "iso3": "VUT",
+        "phone": [678],
+        "continent": "OC",
+        "capital": "Port Vila",
+        "currency": ["VUV"],
+        "languages": ["bi", "fr", "en"],
+        "cities": {
+        "en": ["Port Vila", "Luganville", "Norsup", "Isangel", "Sola"],
+        "ar": ["بورت فيلا", "لوغانفيل", "نورساب", "إيسانجيل", "سولا"],
+        "fr": ["Port Vila", "Luganville", "Norsup", "Isangel", "Sola"]
+        }
+    },
+    "WF": {
+        "name": {"en": "Wallis and Futuna", "ar": "واليس وفوتونا", "fr": "Wallis-et-Futuna"},
+        "native": "Wallis et Futuna",
+        "iso3": "WLF",
+        "phone": [681],
+        "continent": "OC",
+        "capital": "Mata-Utu",
+        "currency": ["XPF"],
+        "languages": ["fr", "wls"],
+        "cities": {
+        "en": ["Mata-Utu", "Alo", "Sigave", "Wallis Island", "Futuna Island"],
+        "ar": ["ماتا أوتو", "آلو", "سيغاف", "جزيرة واليس", "جزيرة فوتونا"],
+        "fr": ["Mata-Utu", "Alo", "Sigave", "Île Wallis", "Île Futuna"]
+        }
+    },
+    "WS": {
+        "name": {"en": "Samoa", "ar": "ساموا", "fr": "Samoa"},
+        "native": "Sāmoa",
+        "iso3": "WSM",
+        "phone": [685],
+        "continent": "OC",
+        "capital": "Apia",
+        "currency": ["WST"],
+        "languages": ["sm", "en"],
+        "cities": {
+        "en": ["Apia", "Vaitele", "Faleula", "Leulumoega", "Si'umu"],
+        "ar": ["آبيا", "فايتيل", "فالوولا", "ليولو موجا", "سيومو"],
+        "fr": ["Apia", "Vaitele", "Faleula", "Leulumoega", "Si'umu"]
+        }
+    },
+    "XK": {
+        "name": {"en": "Kosovo", "ar": "كوسوفو", "fr": "Kosovo"},
+        "native": "Kosova",
+        "iso3": "XKX",
+        "phone": [383],
+        "continent": "EU",
+        "capital": "Pristina",
+        "currency": ["EUR"],
+        "languages": ["sq", "sr"],
+        "cities": {
+        "en": ["Pristina", "Prizren", "Peja", "Gjakova", "Mitrovica"],
+        "ar": ["بريشتينا", "بريزرين", "بييا", "جاكوفا", "ميتروفيتسا"],
+        "fr": ["Pristina", "Prizren", "Peja", "Gjakova", "Mitrovica"]
+        }
+    },
+    "YE": {
+        "name": {"en": "Yemen", "ar": "اليمن", "fr": "Yémen"},
+        "native": "اليمن",
+        "iso3": "YEM",
+        "phone": [967],
+        "continent": "AS",
+        "capital": "Sana'a",
+        "currency": ["YER"],
+        "languages": ["ar"],
+        "cities": {
+        "en": ["Sana'a", "Aden", "Taiz", "Al Hudaydah", "Ibb"],
+        "ar": ["صنعاء", "عدن", "تعز", "الحديدة", "إب"],
+        "fr": ["Sana'a", "Aden", "Taiz", "Al Hudaydah", "Ibb"]
+        }
+    },
+    "YT": {
+        "name": {"en": "Mayotte", "ar": "مايوت", "fr": "Mayotte"},
+        "native": "Mayotte",
+        "iso3": "MYT",
+        "phone": [262],
+        "continent": "AF",
+        "capital": "Mamoudzou",
+        "currency": ["EUR"],
+        "languages": ["fr", "shy"],
+        "cities": {
+        "en": ["Mamoudzou", "Dzaoudzi", "Pamandzi", "Bandrele", "Koungou"],
+        "ar": ["مامودزو", "دزاودزي", "باماندزي", "باندرلي", "كونغو"],
+        "fr": ["Mamoudzou", "Dzaoudzi", "Pamandzi", "Bandrélé", "Koungou"]
+        }
+    },
+    "ZA": {
+        "name": {"en": "South Africa", "ar": "جنوب أفريقيا", "fr": "Afrique du Sud"},
+        "native": "South Africa",
+        "iso3": "ZAF",
+        "phone": [27],
+        "continent": "AF",
+        "capital": "Pretoria",
+        "currency": ["ZAR"],
+        "languages": ["af", "en", "zu", "xh", "st", "tn", "ts", "ss", "ve", "nr"],
+        "cities": {
+            "en": ["Pretoria", "Johannesburg", "Cape Town", "Durban", "Port Elizabeth"],
+            "ar": ["بريتوريا", "جوهانسبرغ", "كيب تاون", "ديربان", "بورت إليزابيث"],
+            "fr": ["Pretoria", "Johannesburg", "Le Cap", "Durban", "Port Elizabeth"]
+        }
+    },
+    "ZM": {
+        "name": {"en": "Zambia", "ar": "زامبيا", "fr": "Zambie"},
+        "native": "Zambia",
+        "iso3": "ZMB",
+        "phone": [260],
+        "continent": "AF",
+        "capital": "Lusaka",
+        "currency": ["ZMW"],
+        "languages": ["en"],
+        "cities": {
+        "en": ["Lusaka", "Ndola", "Kitwe", "Kabwe", "Chingola"],
+        "ar": ["لوساكا", "ندولا", "كيتوي", "كابوي", "تشينغولا"],
+        "fr": ["Lusaka", "Ndola", "Kitwe", "Kabwe", "Chingola"]
+        }
+    },
+    "ZW": {
+        "name": {"en": "Zimbabwe", "ar": "زيمبابوي", "fr": "Zimbabwe"},
+        "native": "Zimbabwe",
+        "iso3": "ZWE",
+        "phone": [263],
+        "continent": "AF",
+        "capital": "Harare",
+        "currency": ["ZWL"],
+        "languages": ["en", "sn", "nd"],
+        "cities": {
+        "en": ["Harare", "Bulawayo", "Mutare", "Gweru", "Kwekwe"],
+        "ar": ["هاراري", "بولاويو", "موتاري", "جويرو", "كويكوي"],
+        "fr": ["Harare", "Bulawayo", "Mutare", "Gweru", "Kwekwe"]
+        }
+    }
+}
+
+
+
+
+
